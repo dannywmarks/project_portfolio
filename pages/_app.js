@@ -4,7 +4,7 @@ import styles from '../styles'
 
 function MyApp({ Component, pageProps }) {
 
-  console.log(styles)
+
   return (
     <div className="bg-gray-800">
 
