@@ -4,6 +4,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'script': ['Oleo Script'],
+     
+    },
     extend: {},
   },
   plugins: [],

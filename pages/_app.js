@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
 
   console.log(styles)
   return (
-    <div className="">
+    <div className="bg-gray-800">
 
       <Navbar />
       <div className="flex gap-6 md:gap-20">
