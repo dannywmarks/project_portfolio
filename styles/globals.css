@@ -75,3 +75,54 @@ input[type="number"] {
     #1bb2de 99.52%
   );
 }
+
+.background-text {
+ 
+  overflow: hidden;
+ 
+  position: relative;
+
+}
+.background-text::after {
+  color: #fff;
+  font-weight: bold;
+  content: attr(data-bg-text);
+  display: block;
+  font-size: 500px;
+  line-height: 1;
+  position: absolute;
+  top: 120px;
+  right: -300px;
+  opacity: 0.1;
+ 
+}
+
+.work_box {
+  z-index: 5;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+#work_small {
+  z-index: 7;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #f7f7f7;
+
+}
+
+#work_big {
+  font-size: 620px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  padding: 20px;
+  margin: 0;
+  bottom: 0;
+  right: 20;
+  position: absolute;
+  opacity: 0.2;
+}
