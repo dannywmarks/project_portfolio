@@ -1,5 +1,4 @@
-
-
+import uniswap from '../public/assets/projects/uniswap_clone.png'
 
 
 export const projects = [
@@ -17,7 +16,7 @@ export const projects = [
   },
   {
     name: "Uniswap 2.0 Clone",
-    image: "",
+    image: uniswap,
     type: "web3",
     desc: ""
   },

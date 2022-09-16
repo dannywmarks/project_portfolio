@@ -30,7 +30,7 @@ const Projects = () => {
                   className="z-10"
                   key={idx}
                   name={project.name}
-                  img={project.img}
+                  image={project.image}
                   desc={project.desc}
                 />
               )
@@ -47,7 +47,7 @@ const Projects = () => {
                   className="z-10"
                   key={idx}
                   name={project.name}
-                  img={project.img}
+                  image={project.image}
                   desc={project.desc}
                 />
               )
