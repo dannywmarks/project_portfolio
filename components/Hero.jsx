@@ -11,9 +11,9 @@ const Hero = () => {
           <h1 className="text-[5rem] font-bold">I am <span className="font-script text-red-300">Danny</span>,</h1>
           <h1 className="text-[3rem] ">a full stack developer</h1>
           <p className="lg:text-[2rem] text-gray-400">
-          in web2 & web3 spaces
+          in the web2 & web3 spaces
           </p>
-          <button className=" border-black py-6 w-1/2 mt-10 text-2xl text-black font-bold bg-red-300 hover:bg-red-200">
+          <button className=" border-black py-4 w-60 my-4 ml-2 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black">
             Contact
           </button>
         </div>

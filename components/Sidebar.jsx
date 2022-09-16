@@ -13,7 +13,7 @@ const Sidebar = () => {
 
   return (
     <div className="bg-gray-800 text-white w-50 text-center flex flex-col h-full justify-between ">
-      <div className="pt-6 pb-4 bg-black px-6">
+      <div className="pt-6 pb-4 bg-gray-900 px-6">
         <div className="py-6">
           <Link href="/">
             <p className="text-[4rem] font-bold cursor-pointer text-red-300">D<span className="text-white">M</span></p>
