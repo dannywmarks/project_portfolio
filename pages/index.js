@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Hero, Projects, About } from "../components";
+import { Hero, Projects, About, SkillsAndXP } from "../components";
 
 export default function Home() {
   return (
@@ -8,6 +8,10 @@ export default function Home() {
       <div className="work_box" >
         <Projects id="work_small"/>
         <div id="work_big">WORK</div>
+      </div>
+      <div className="work_box h-screen" >
+        <SkillsAndXP id="work_small"/>
+        <div id="work_big">SKILL</div>
       </div>
     </div>
   );

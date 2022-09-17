@@ -1,4 +1,6 @@
 import uniswap from '../public/assets/projects/uniswap_clone.png'
+import custom_blinds from '../public/assets/projects/custom_blinds.png'
+import lens_protocol from '../public/assets/projects/lens_protocol.png'
 
 
 export const projects = [
@@ -10,7 +12,7 @@ export const projects = [
   },
   {
     name: "Lens Protocol Demo",
-    image: "",
+    image: lens_protocol,
     type: "web3",
     desc: ""
   },
@@ -28,7 +30,7 @@ export const projects = [
   },
   {
     name: "Ecommerce Custom Blinds",
-    image: "",
+    image: custom_blinds,
     type: "web2",
     desc: ""
   },

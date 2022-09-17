@@ -5,10 +5,10 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'script': ['Oleo Script'],
-     
+      script: ["Oleo Script"],
+      pencil: ["Kaushan Script"],
     },
     extend: {},
   },
   plugins: [],
-}
+};
