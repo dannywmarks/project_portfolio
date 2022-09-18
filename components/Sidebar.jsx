@@ -23,7 +23,7 @@ const Sidebar = () => {
           </Link>
         </div>
         <p className="text-white text-2xl font-bold font-script">Danny Marks</p>
-        <span className="text-white">Full Stack Development</span>
+        <span className="text-white">Full Stack Developer</span>
         <div className="m-6">
           <Link href="/">
             <a href="" className="p-6 text-[1.5rem] outline px-4 py-2 mt-4 mb-2 font-bold cursor-pointer text-red-300 rounded-full hover:text-black hover:bg-red-200 hover:border-6-black">
