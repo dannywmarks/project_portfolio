@@ -18,7 +18,7 @@ const Projects = () => {
         <p className="font-pencil text-xl text-red-200 font-bold my-2">
           &lt;p&gt;
         </p>
-        <p className=" text-gray-300">
+        <p className=" text-gray-300 font-poppins">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
           dolorum similique iusto quidem nam ipsum cum, debitis ab est
           consectetur fugiat laborum ducimus obcaecati, soluta, dolores odit
@@ -27,7 +27,7 @@ const Projects = () => {
         <p className="font-pencil text-xl text-red-200 font-bold my-2">
           &lt;/p&gt;
         </p>
-        <button className=" border-black py-4 w-60 mt-6 ml-2 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black">
+        <button className=" border-black py-4 w-60 mt-6 ml-2 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black font-poppins">
           See More!
         </button>
 
@@ -40,7 +40,7 @@ const Projects = () => {
           web3 projects{" "}
         </p>
 
-        <div className="grid grid-cols-3 gap-4 z-10">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 z-10">
           {projects.map(
             (project, idx) =>
               project.type === "web3" && (
@@ -57,7 +57,7 @@ const Projects = () => {
         <p className="text-[2rem] text-gray-400 py-8 font-bold">
           web2 projects
         </p>
-        <div className="grid grid-cols-3 gap-4 z-10">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 z-10">
           {projects.map(
             (project, idx) =>
               project.type === "web2" && (

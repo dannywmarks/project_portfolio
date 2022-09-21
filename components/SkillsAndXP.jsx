@@ -7,14 +7,12 @@ const SkillsAndXP = () => {
         &lt;h1&gt;
       </p>
 
-      <div className="mt-14 grid md:grid-cols-2 gap-4 ">
+      <div className=" grid lg:grid-cols-2 gap-4 font-poppins font-bold ">
         <div className="">
-          <p className="text-[6rem] font-bold font-script text-white leading-9">
-            My Skills &amp;
+          <p className="text-[6rem] font-bold font-script text-white ">
+            My Skills
           </p>
-          <p className="text-[6rem] font-bold font-script text-white">
-            Experience
-          </p>
+     
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/h1&gt;
           </p>
@@ -27,8 +25,7 @@ const SkillsAndXP = () => {
           </p>
         </div>
         <div className="z-10">
-          <ul className="text-white w-full p-6 mx-auto my-4 shadow-2xl">
-            My Skills
+          <ul className="text-white w-full p-12 mx-auto my-4 shadow-2xl text-2xl rounded-2xl">
             <li className="p-2 my-2">
               <h3>Frontend</h3>
               <span className="bar">

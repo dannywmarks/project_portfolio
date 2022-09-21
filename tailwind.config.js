@@ -7,6 +7,7 @@ module.exports = {
     fontFamily: {
       script: ["Oleo Script"],
       pencil: ["Kaushan Script"],
+      poppins: ["Poppins"]
     },
     extend: {},
   },
