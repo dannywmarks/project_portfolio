@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../utils/constants";
-import { ProjectCard } from "../components";
+import { ProjectCard, Card } from "../components";
 
 const Projects = () => {
   return (
@@ -40,37 +40,43 @@ const Projects = () => {
           web3 projects{" "}
         </p>
 
-        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 z-10">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 z-10 place-items-center">
           {projects.map(
             (project, idx) =>
               project.type === "web3" && (
-                <ProjectCard
+                <Card
                   className="z-10"
                   key={idx}
                   name={project.name}
                   image={project.image}
                   desc={project.desc}
+                  tags={""}
                 />
               )
           )}
+     
+
+    
         </div>
         <p className="text-[2rem] text-gray-400 py-8 font-bold">
           web2 projects
         </p>
-        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 z-10">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 place-items-center z-10">
           {projects.map(
             (project, idx) =>
               project.type === "web2" && (
-                <ProjectCard
+                <Card
                   className="z-10"
                   key={idx}
                   name={project.name}
                   image={project.image}
                   desc={project.desc}
+                  tags={""}
                 />
               )
           )}
         </div>
+   
       </div>
     </div>
   );

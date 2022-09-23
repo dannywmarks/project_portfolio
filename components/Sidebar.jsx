@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
-import Profile from "../public/assets/profilepixel.png";
+import Profile from "../public/profile_pic.svg";
 import { SocialIcon } from "react-social-icons";
 // import resume from '../public/assets/DMR.pdf'
 
@@ -15,21 +15,25 @@ const Sidebar = () => {
   return (
     <div className="bg-gray-800 text-white w-50 text-center flex flex-col h-full justify-between ">
       <div className="pt-6 pb-4 bg-gray-900 px-6">
+        <p className="text-[4rem] font-bold cursor-pointer text-red-300 font-poppins">
+          D<span className="text-white">M</span>
+        </p>
         <div className="py-6">
           <Link href="/">
-            <p className="text-[4rem] font-bold cursor-pointer text-red-300 font-poppins">
-              D<span className="text-white">M</span>
-            </p>
+            <Image src={Profile} alt="profile" width={100} height={100} />
           </Link>
         </div>
+
         <p className="text-white text-2xl font-bold font-script">Danny Marks</p>
         <span className="text-white font-poppins">Full Stack Developer</span>
         <div className="m-6">
-          <Link href="/">
-            <a href="" className="p-6 text-[1.5rem] outline px-4 py-2 mt-4 mb-2 font-bold cursor-pointer text-red-300 rounded-full hover:text-black hover:bg-red-200 hover:border-6-black font-poppins">
-             Résumé
-            </a>
-          </Link>
+          <a
+            href="../public/assets/DMR.pdf"
+            className="p-6 text-[1.5rem] outline px-4 py-2 mt-4 mb-2 font-bold cursor-pointer text-red-300 rounded-full hover:text-black hover:bg-red-200 hover:border-6-black font-poppins"
+            download
+          >
+            Résumé
+          </a>
         </div>
       </div>
 

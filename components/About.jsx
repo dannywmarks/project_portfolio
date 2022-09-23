@@ -1,10 +1,11 @@
 import React from "react";
-import Image from 'next/image'
-import ProfilePic from '../public/profile_pic.svg'
+import Image from "next/image";
+import ProfilePic from "../public/profile_pic.svg";
+import { Card2 } from "../components";
 
 const About = () => {
   return (
-    <div className="text-white h-screen grid md:grid-cols-2 gap-6">
+    <div className="text-white h-screen grid md:grid-cols-2 gap-2">
       <div className="text-xl">
         <p className="font-pencil text-xl text-red-200 font-bold my-2">
           &lt;h1&gt;
@@ -17,9 +18,9 @@ const About = () => {
           &lt;p&gt;
         </p>
         <p>
-          I’m a Full-Stack Developer located in the Bay Area. I have a serious passion
-          for UI effects, animations and creating intuitive, dynamic user
-          experiences.
+          I’m a Full-Stack Developer located in the Bay Area. I have a serious
+          passion for UI effects, animations and creating intuitive, dynamic
+          user experiences.
         </p>
         <br />
         <p>
@@ -39,7 +40,12 @@ const About = () => {
         </p>
       </div>
       <div>
-        <Image src={ProfilePic} alt="profile pic" />
+        <div>
+          <Card2 />
+        </div>
+        <div>
+          <Card2 />
+        </div>
       </div>
     </div>
   );
