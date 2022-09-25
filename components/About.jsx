@@ -5,7 +5,7 @@ import { Card2 } from "../components";
 
 const About = () => {
   return (
-    <div className="text-white h-screen grid md:grid-cols-2 gap-2">
+    <div className="text-white grid md:grid-cols-2 gap-2">
       <div className="text-xl">
         <p className="font-pencil text-xl text-red-200 font-bold my-2">
           &lt;h1&gt;

@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import { Navbar, Sidebar, Hero, Footer } from "../components";
+
 import styles from '../styles'
 
 function MyApp({ Component, pageProps }) {
@@ -23,3 +24,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+

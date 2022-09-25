@@ -8,4 +8,8 @@ export { default as SkillsAndXP } from "./SkillsAndXP";
 export { default as Contact } from "./Contact";
 export { default as About } from "./About";
 export { default as Card } from "./Card";
-export { default as Card2 } from "./Card2"
+export { default as Card2 } from "./Card2";
+export { default as Categories } from "./Categories";
+export { default as PostCard } from "./PostCard";
+export { default as PostWidget } from "./PostWidget";
+export { default as BlogHeader } from "./BlogHeader";

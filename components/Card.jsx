@@ -37,7 +37,7 @@ export const Card = () => {
                   <div className="w-full h-full relative">
                     <Image
                       src={ProjectImage}
-                      class="absolute top-0 w-full h-full object-cover object-bottom rounded-lg bg-white"
+                      className="absolute top-0 w-full h-full object-cover object-bottom rounded-lg bg-white"
                       alt=""
                     />
                   </div>
