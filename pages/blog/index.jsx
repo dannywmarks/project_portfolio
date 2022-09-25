@@ -1,6 +1,6 @@
 import React from "react";
-import { PostCard, PostWidget, Categories, BlogHeader } from "../components";
-import { getPosts } from "../services";
+import { PostCard, PostWidget, Categories, BlogHeader } from "../../components";
+import { getPosts } from "../../services";
 
 const Blog = ({ posts }) => {
  
