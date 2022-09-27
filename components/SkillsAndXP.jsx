@@ -9,7 +9,7 @@ const SkillsAndXP = () => {
 
       <div className=" grid lg:grid-cols-2 gap-4 font-poppins font-bold ">
         <div className="">
-          <p className="text-[6rem] font-bold font-script text-white ">
+          <p className="text-[6rem] font-bold font-script text-white ml-2">
             My Skills
           </p>
      

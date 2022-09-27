@@ -1,50 +1,72 @@
 import React from "react";
 import Image from "next/image";
 import ProfilePic from "../public/profile_pic.svg";
-import { Card2 } from "../components";
+import { BlogCard } from "../components";
 
 const About = () => {
   return (
-    <div className="text-white grid md:grid-cols-2 gap-2">
-      <div className="text-xl">
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
-          &lt;h1&gt;
-        </p>
-        <h1 className="text-[6rem] font-bold font-script py-8">About</h1>
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
-          &lt;/h1&gt;
-        </p>
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
-          &lt;p&gt;
-        </p>
-        <p>
-          I’m a Full-Stack Developer located in the Bay Area. I have a serious
-          passion for UI effects, animations and creating intuitive, dynamic
-          user experiences.
-        </p>
-        <br />
-        <p>
-          Well-organised person, problem solver, independent employee with high
-          attention to detail. Fan of MMA, outdoor activities, TV series and
-          English literature. A family person and father of two fractious boys,
-        </p>
-        <br />
-        <p>
-          Interested in the entire frontend spectrum and working on ambitious
-          projects with positive people.
-        </p>
-        <br />
-        <p>Lets make something special</p>
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
-          &lt;/p&gt;
-        </p>
-      </div>
-      <div>
-        <div>
-          <Card2 />
+    <div>
+      <div className="text-white grid md:grid-cols-2 gap-12">
+        <div className="text-xl">
+          <p className="font-pencil text-xl text-red-200 font-bold mb-10">
+            &lt;h1&gt;
+          </p>
+          <h1 className="text-[6rem] font-bold font-script text-white ml-2 ">
+            About
+          </h1>
+          <p className="font-pencil text-xl text-red-200 font-bold mt-10">
+            &lt;/h1&gt;
+          </p>
+          <p className="font-pencil text-xl text-red-200 font-bold mt-4">
+            &lt;p&gt;
+          </p>
+
+          <p>
+            I am passionate about building things digitally that interact and compliment
+            the world physically. I started my journey in the tech industry in
+            early 2013 with an IOS app named Money Shot. Money Shot started as
+            an idea drawn on a napkin, bootstrapped and personally designed, and
+            brought to life, finding its way to both the IOS and Android stores.
+            I had zero experience in tech and worked with a development firm to
+            create my idea. My passion project eventually ran out of momentum
+            due to a lack of resources. I left feeling frustrated and
+            unsatisfied that development stopped due to finances. The pain and
+            frustration of failing lit a fire inside of me to learn how to
+            create and develop on my own.
+          </p>
+          <p className="font-pencil text-xl text-red-200 font-bold my-2">
+            &lt;/p&gt;
+          </p>
+          <p className="font-pencil text-xl text-red-200 font-bold mt-4">
+            &lt;p&gt;
+          </p>
+          <p>
+            Over the years, I’ve cultivated my passion for coding through books,
+            Udemy courses, and free coding resources found on youtube. Looking
+            to take my hobby seriously I joined and completed the Springboard
+            software engineering Bootcamp, which I specifically chose due to its
+            heavy focus on building a foundation with both the Javascript and
+            Python languages.
+          </p>
+          <p className="font-pencil text-xl text-red-200 font-bold my-2">
+            &lt;/p&gt;
+          </p>
+          <br />
+          <p>
+            Interested in the entire frontend spectrum and working on ambitious
+            projects with positive people.
+          </p>
+          <br />
+          <p>Lets make something special</p>
+          <p className="font-pencil text-xl text-red-200 font-bold my-2">
+            &lt;/p&gt;
+          </p>
         </div>
         <div>
-          <Card2 />
+          <div>
+            <BlogCard />
+            <BlogCard />
+          </div>
         </div>
       </div>
     </div>

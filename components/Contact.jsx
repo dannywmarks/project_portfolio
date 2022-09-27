@@ -28,7 +28,7 @@ const Contact = () => {
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/h1&gt;
           </p>
-          <h1 className="text-[6rem] font-bold font-script">Contact Me</h1>
+          <h1 className="text-[6rem] font-bold font-script ml-2">Contact Me</h1>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/h1&gt;
           </p>

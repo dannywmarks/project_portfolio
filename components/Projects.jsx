@@ -9,7 +9,7 @@ const Projects = () => {
         <p className="font-pencil text-xl text-red-200 font-bold my-2">
           &lt;h1&gt;
         </p>
-        <h1 className="text-[6rem] font-bold py-10 font-script">
+        <h1 className="text-[6rem] font-bold py-10 font-script ml-2">
           My Portfolio
         </h1>
         <p className="font-pencil text-xl text-red-200 font-bold my-2">

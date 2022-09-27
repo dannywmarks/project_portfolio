@@ -89,7 +89,7 @@ const CommentForm = ({ slug }) => {
             name="storedata"
             value="true"
           />
-          <label htmlfor="storeData" className="text-white px-4 text-2xl">
+          <label htmlFor="storeData" className="text-white px-4 text-2xl">
             Save my e-mail and name for the next time I comment
           </label>
         </div>
