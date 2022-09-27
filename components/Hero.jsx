@@ -40,7 +40,7 @@ const Hero = () => {
             &lt;/h4&gt;
           </p>
 
-          <button className="border-black py-4 w-60 my-4 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black hover:text-3xl font-poppins">
+          <button className="border-black py-4 w-60 my-4 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black font-poppins">
             Contact
           </button>
         </div>
