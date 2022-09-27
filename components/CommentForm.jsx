@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { submitComment } from "../services";
 
 const CommentForm = ({ slug }) => {
   const [error, setError] = useState(false);
@@ -9,13 +10,19 @@ const CommentForm = ({ slug }) => {
   const emailEl = useRef();
   const storeDataEl = useRef();
 
+
+  useEffect(() => {
+    nameEl.current.value = window.localStorage.getItem('name')
+    emailEl.current.value = window.localStorage.getItem('email')
+  }, [])
+
   const handleCommentSubmission = () => {
     setError(false);
 
     const { value: comment } = commentEl.current;
     const { value: name } = nameEl.current;
     const { value: email } = emailEl.current;
-    const { checked: storeData} = storeDataEl.current
+    const { checked: storeData } = storeDataEl.current;
 
     if (!comment || !name || !email) {
       setError(true);
@@ -29,21 +36,26 @@ const CommentForm = ({ slug }) => {
       slug,
     };
 
-    if(storeData) {
-      localStorage.setItem('name', name)
-      localStorage.setItem('email', email)
+    if (storeData) {
+      window.localStorage.setItem("name", name);
+      window.localStorage.setItem("email", email);
     } else {
-      localStorage.removeItem('name', name);
-      localStorage.removeItem('email', email)
+      window.localStorage.removeItem("name", name);
+      window.localStorage.removeItem("email", email);
     }
 
-
+    submitComment(commentObj).then((res) => {
+      setShowSuccessMessage(true);
+      setTimeout(() => {
+        setShowSuccessMessage(false);
+      }, 3000);
+    });
   };
 
   return (
     <div className="bg-gray-900 shdaow-lg rounded-lg p-8 pb-12 mb-8 border-2 border-red-300">
       <h3 className="text-xl text-white mb-8 font-semibold border-b pb-4 border-red-200">
-        Comments Form
+        Leave a Reply
       </h3>
       <div className="grid grid-cols-1 gap-4 mb-4">
         <textarea
@@ -70,8 +82,16 @@ const CommentForm = ({ slug }) => {
       </div>
       <div className="grid grid-cols-1 gap-4 mb-4">
         <div>
-          <input ref={storeDataEl} type="checkbox" id="storeData" name="storedata" value="true" />
-          <label htmlFof="storeData" className="text-white px-4 text-2xl">Save my e-mail and name for the next time I comment</label>
+          <input
+            ref={storeDataEl}
+            type="checkbox"
+            id="storeData"
+            name="storedata"
+            value="true"
+          />
+          <label htmlfor="storeData" className="text-white px-4 text-2xl">
+            Save my e-mail and name for the next time I comment
+          </label>
         </div>
       </div>
       {error && (

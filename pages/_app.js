@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import { Navbar, Sidebar, Hero, Footer } from "../components";
-
+import { getPosts } from "../services";
 import styles from '../styles'
 
 function MyApp({ Component, pageProps }) {
