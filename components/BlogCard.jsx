@@ -1,23 +1,43 @@
 import React from "react";
 import Image from "next/image";
 import MS from "../public/assets/MoneyShot.svg";
-import Blog from "../public/assets/projects/uniswap_clone.png"
-import Profile from '../public/profile_pic.svg'
+import Blog from "../public/assets/projects/uniswap_clone.png";
+import Profile from "../public/profile_pic.svg";
 
-const Card2 = ({image1, image2, image3, image4,image5 }) => {
+const Card2 = ({
+  author,
+  title,
+  desc,
+  date,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+}) => {
   return (
-    
     <>
-    {/* <!-- Card--> */}
+      {/* <!-- Card--> */}
       <article className="mb-4 break-inside p-6 rounded-xl bg-gray-900 flex flex-col bg-clip-border border-2 border-red-300">
         <div className="flex pb-6 items-center justify-between">
           <div className="flex">
             <a className="inline-block mr-4" href="#">
-              <Image className="rounded-full max-w-none w-12 h-12" src={Profile} width={50} height={50} />
+              <Image
+                className="rounded-full max-w-none w-12 h-12"
+                src={Profile}
+                width={50}
+                height={50}
+                alt={title}
+              />
             </a>
             <div className="flex flex-col">
               <div>
-                <a className="inline-block text-lg font-bold dark:text-white" href="#">Danny Devage</a>
+                <a
+                  className="inline-block text-lg font-bold dark:text-white"
+                  href="#"
+                >
+                  Danny Devage
+                </a>
               </div>
               <div className="text-slate-500 dark:text-slate-300 dark:text-slate-400">
                 July 17, 2018
@@ -26,42 +46,76 @@ const Card2 = ({image1, image2, image3, image4,image5 }) => {
           </div>
         </div>
         <h2 className="text-3xl font-extrabold dark:text-white">
-         My Software Engineering Path
+          My Software Engineering Path
         </h2>
         <div className="py-4">
           <div className="flex justify-between">
-            <div className="flex border-l-2 border-r-2 border-t-2 border-red-300" href="#">
-              <Image className="max-w-full "
-                src={image1} width={2500} height={1500}/>
+            <div
+              className="flex border-l-2 border-r-2 border-t-2 border-red-300"
+              href="#"
+            >
+              <Image
+                className="max-w-full "
+                src={image1}
+                width={2500}
+                height={1500}
+                alt={title}
+              />
             </div>
             <div className="flex border-t-2 border-red-300 " href="#">
-            <Image className="max-w-full "
-                src={image4} width={2500} height={1500}/>
+              <Image
+                className="max-w-full "
+                src={image4}
+                width={2500}
+                height={1500}
+                alt={title}
+              />
             </div>
-            <div className="flex border-l-2 border-r-2 border-t-2 border-red-300 " href="#">
-            <Image className="max-w-full "
-                src={image2} width={2500} height={1500}/>
+            <div
+              className="flex border-l-2 border-r-2 border-t-2 border-red-300 "
+              href="#"
+            >
+              <Image
+                className="max-w-full "
+                src={image2}
+                width={2500}
+                height={1500}
+                alt={title}
+              />
             </div>
           </div>
           <div className="flex justify-between  ">
-            <div className="flex border-b-2 border-l-2 border-t-2 border-red-300" href="#">
-            <Image className="max-w-full "
-                src={image1} width={2000} height={1400}/>
+            <div
+              className="flex border-b-2 border-l-2 border-t-2 border-red-300"
+              href="#"
+            >
+              <Image
+                className="max-w-full "
+                src={image1}
+                width={2000}
+                height={1400}
+                alt={title}
+              />
             </div>
             <div className="flex border-2 border-red-300" href="#">
-            <Image className="max-w-full "
-                src={image3} width={2000} height={1400}/>
+              <Image
+                className="max-w-full "
+                src={image3}
+                width={2000}
+                height={1400}
+                alt={title}
+              />
             </div>
           </div>
         </div>
         <p className="dark:text-slate-200">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolores in vitae delectus nemo necessitatibus nobis voluptates soluta possimus odit mollitia sit quasi sed natus impedit expedita, optio amet debitis hic vero earum libero reiciendis ipsa! At veniam officiis voluptatem.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolores
+          in vitae delectus nemo necessitatibus nobis voluptates soluta possimus
+          odit mollitia sit quasi sed natus impedit expedita, optio amet debitis
+          hic vero earum libero reiciendis ipsa! At veniam officiis voluptatem.
         </p>
-        <div className="py-4">
-          
-        </div>
+        <div className="py-4"></div>
         <div className="relative">
-         
           {/* <span className="flex absolute right-3 top-2/4 -mt-3 items-center">
             <svg className="mr-2" style={{width: "26px", height: "26px"}} viewBox="0 0 24 24">
               <path fill="currentColor"
@@ -71,10 +125,8 @@ const Card2 = ({image1, image2, image3, image4,image5 }) => {
       
           </span> */}
         </div>
-       
       </article>
-
-  </>
+    </>
   );
 };
 

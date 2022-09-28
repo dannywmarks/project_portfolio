@@ -2,10 +2,11 @@ import React from "react";
 import Image from "next/image";
 import ProfilePic from "../public/profile_pic.svg";
 import { BlogCard } from "../components";
-import { moneyShot} from '../utils/constants'
+import { moneyShot, springBoard} from '../utils/constants'
 
 const About = () => {
-  const { image1, image2, image3, image4, image5} = moneyShot
+  const { image1, image2, image3, image4, image5} = springBoard
+  const { image6, image7, image8, image9 } = moneyShot
 
   return (
     <div>
@@ -67,9 +68,9 @@ const About = () => {
         </div>
         <div>
           <div>
-            
+            <BlogCard image1={image6} image2={image9} image3={image7} image4={image8}/>
             <BlogCard image1={image1} image2={image2} image3={image3} image4={image4} image5={image5} />
-            <BlogCard />
+    
           </div>
         </div>
       </div>
