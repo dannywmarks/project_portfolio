@@ -6,7 +6,7 @@ export const Card = () => {
   return (
   
       <div
-        className="border-2 border-red-300 bg-gray-900 bg-opacity-25 rounded-lg p-6 text-gray-100 relative z-10"
+        className="border-2 border-red-300 bg-gray-900 bg-opacity-60 rounded-lg p-6 text-gray-100 relative z-10"
      
       >
         <div className="flex flex-wrap items-center">

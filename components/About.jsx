@@ -2,8 +2,11 @@ import React from "react";
 import Image from "next/image";
 import ProfilePic from "../public/profile_pic.svg";
 import { BlogCard } from "../components";
+import { moneyShot} from '../utils/constants'
 
 const About = () => {
+  const { image1, image2, image3, image4, image5} = moneyShot
+
   return (
     <div>
       <div className="text-white grid md:grid-cols-2 gap-12">
@@ -50,7 +53,7 @@ const About = () => {
           </p>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/p&gt;
-          </p>
+          </p>4
           <br />
           <p>
             Interested in the entire frontend spectrum and working on ambitious
@@ -64,7 +67,8 @@ const About = () => {
         </div>
         <div>
           <div>
-            <BlogCard />
+            
+            <BlogCard image1={image1} image2={image2} image3={image3} image4={image4} image5={image5} />
             <BlogCard />
           </div>
         </div>
