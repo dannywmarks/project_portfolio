@@ -31,8 +31,7 @@ export const Card = ({
               src={image1}
               className="w-full bg-gray-900 rounded-tl-lg rounded-bl-lg"
               alt=""
-              width="100%"
-              height="100%"
+            
               layout="fill"
           
             />
@@ -46,23 +45,22 @@ export const Card = ({
                     src={image2}
                     className="absolute top-0 w-full h-full rounded-tr-lg "
                     alt=""
-                    width="100%"
-                    height="100%"
+              
                     layout="fill"
             
                   />
                 </div>
               </div>
 
-              <div className="flex-1 ">
+              <div className="flex-1">
                 <div className="w-full h-full relative  border-t-2 border-r-2 border-b-2 border-red-300 rounded-br-lg">
                   <Image
                     src={image3}
                     className="absolute top-0 w-full h-full object-cover object-bottom rounded-br-lg"
                     alt=""
-                    width="100%"
-                    height="100%"
+               
                     layout="fill"
+                    
                   
                   />
                 </div>
