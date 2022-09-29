@@ -2,60 +2,88 @@ import uniswap from "../public/assets/projects/uniswap_clone.png";
 import custom_blinds from "../public/assets/projects/custom_blinds.png";
 import lens_protocol from "../public/assets/projects/lens_protocol.png";
 import utp from "../public/assets/projects/utp.png";
-import image1 from "../public/assets/blogImgs/springboard.png";
-import image2 from "../public/assets/blogImgs/udemy.png";
-import image3 from "../public/assets/blogImgs/dappUniversity.jpg";
-import image4 from "../public/assets/blogImgs/youtube.png";
-import image5 from "../public/assets/blogImgs/bootcampAward.png";
+import utpMain from '../public/assets/projects/UTP/utpTp.png'
+import lensMain from '../public/assets/projects/LENS/lensProtocol.png'
+import image1 from "../public/assets/blogImgs/bootcampAward.png";
+import image2 from "../public/assets/blogImgs/youtube.png";
+import image3 from "../public/assets/blogImgs/udemy.png";
+import image4 from "../public/assets/blogImgs/dappUniversity.jpg";
+import image5 from "../public/assets/blogImgs/springboard.png";
 import image6 from "../public/assets/blogImgs/Ms/image6.png";
-import image7 from "../public/assets/blogImgs/Ms/image7.png";
-import image8 from "../public/assets/blogImgs/Ms/image8.png";
-import image9 from "../public/assets/blogImgs/Ms/image9.png";
+import image7 from "../public/assets/blogImgs/Ms/image8.png";
+import image8 from "../public/assets/blogImgs/Ms/image9.png";
+import image9 from "../public/assets/blogImgs/Ms/image7.png";
 import image10 from "../public/assets/blogImgs/Ms/image10.png";
 
 export const projects = [
   {
     name: "Up The Punx",
-    image1: utp,
-    image2: "",
+    image1: utpMain,
+    image2: utp,
     image3: "",
     type: "web3",
-    desc: "",
-    tech1: "",
-    tech2: "",
-    tech3: "",
-    tech4: "",
+    desc: "Up The Punx is a NFT market place where punk genre related art is sold as NFTs. The NFTs are collectables, but also provide access to exclusive video content from the artist. The site also is setup up for a generative NFT drop if artist provides the art. ",
+    tech1: "NextJS",
+    tech2: "Tailwind css",
+    tech3: "Truffle / Ganache",
+    tech4: "Solidity",
+    tech5: "Web3JS",
+    tech6: "Chai / Mocha",
+    tech7: "Open Zeppelin",
+    tech8: "MetaMask",
+    bullet1: "ERC-721 Open Zeppelin audited contracts",
+    bullet2: "Contract owner can mint ERC-721 tokens through the platform",
+    bullet3: "Buy and Sell NFTs on marketplace platform",
+    bullet4: "NFT needed to access exclusive content route",
     url: "",
   },
   {
     name: "Lens Protocol Demo",
-    image: lens_protocol,
-    image2: "",
+    image1: lensMain,
+    image2: lens_protocol,
     image3: "",
     type: "web3",
-    desc: "",
-    tech1: "",
-    tech2: "",
-    tech3: "",
-    tech4: "",
+    desc: "The demo interacts with the blockchain through the lens api, fetching and returning user profiles. Lens is a decentralizes social media. The goal was to test the api, and user profiles, with the intentions into implementing the protocol into Up The Punx Marketplace.",
+    tech1: "NextJS",
+    tech2: "GraphQL",
+    tech3: "Tailwind CSS",
+    tech4: "Hardhat",
+    tech5: "Ethers",
+    tech6: "Chai / Mocha",
+    tech7: "Open Zeppelin",
+    tech8: "MetaMask",
+    bullet1: "Lens Protocol API",
+    bullet2: "GraphQL",
+    bullet3: "",
+    bullet4: "",
+    bullet5: "",
     url: "",
   },
   {
     name: "Uniswap 2.0 Clone",
-    image: uniswap,
+    image1: uniswap,
     image2: "",
     image3: "",
     type: "web3",
-    desc: "",
-    tech1: "",
-    tech2: "",
-    tech3: "",
-    tech4: "",
+    desc: "Clone of the popular decenteralize exchange on the etherum network. Experimented with Cranq to interact with Uniswaps market maker and liquidity pool contracts. Interesting approach to interacting with blockchain without directly writing solidity.",
+    tech1: "React",
+    tech2: "Tailwind css",
+    tech3: "Cranq",
+    tech4: "Metamask",
+    tech5: "",
+    tech6: "",
+    tech7: "",
+    tech8: "",
+    bullet1: "Lens Protocol API",
+    bullet2: "Cranq's GUI to interact with blockchain and ERC-20 contracts",
+    bullet3: "",
+    bullet4: "",
+    bullet5: "",
     url: "",
   },
   {
     name: "Damage Squad ",
-    image: "",
+    image1: "",
     image2: "",
     image3: "",
     type: "web2",
@@ -64,11 +92,20 @@ export const projects = [
     tech2: "",
     tech3: "",
     tech4: "",
+    tech5: "",
+    tech6: "",
+    tech7: "",
+    tech8: "",
+    bullet1: "",
+    bullet2: "",
+    bullet3: "",
+    bullet4: "",
+    bullet5: "",
     url: "",
   },
   {
     name: "Ecommerce Custom Blinds",
-    image: custom_blinds,
+    image1: custom_blinds,
     image2: "",
     image3: "",
     type: "web2",
@@ -77,11 +114,15 @@ export const projects = [
     tech2: "",
     tech3: "",
     tech4: "",
+    tech5: "",
+    tech6: "",
+    tech7: "",
+    tech8: "",
     url: "",
   },
   {
     name: "Technique Tracker",
-    image: "",
+    image1: "",
     image2: "",
     image3: "",
     type: "web2",
@@ -100,10 +141,10 @@ export const springBoard = {
   image3,
   image4,
   image5,
-  author: "",
-  title: "",
+  author: "Danny Devage",
+  title: "My Software Engineering Journey",
   desc: "",
-  date: "",
+  date: "September, 20, 2022",
 };
 
 export const moneyShot = {
@@ -112,8 +153,8 @@ export const moneyShot = {
   image8,
   image9,
   image10,
-  author: "",
-  title: "",
+  author: "Danny Devage",
+  title: "MoneyShot Mobile App",
   desc: "",
-  date: "",
+  date: "August, 16, 2022",
 };

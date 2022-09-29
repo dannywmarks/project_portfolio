@@ -65,7 +65,7 @@ const Card2 = ({
             <div className="flex border-t-2 border-red-300 " href="#">
               <Image
                 className="max-w-full "
-                src={image4}
+                src={image2}
                 width={2500}
                 height={1500}
                 alt={title}
@@ -77,7 +77,7 @@ const Card2 = ({
             >
               <Image
                 className="max-w-full "
-                src={image2}
+                src={image3}
                 width={2500}
                 height={1500}
                 alt={title}
@@ -91,7 +91,7 @@ const Card2 = ({
             >
               <Image
                 className="max-w-full "
-                src={image1}
+                src={image4}
                 width={2000}
                 height={1400}
                 alt={title}
@@ -100,7 +100,7 @@ const Card2 = ({
             <div className="flex border-2 border-red-300" href="#">
               <Image
                 className="max-w-full "
-                src={image3}
+                src={image5}
                 width={2000}
                 height={1400}
                 alt={title}

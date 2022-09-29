@@ -48,8 +48,22 @@ const Projects = () => {
                   className="z-10"
                   key={idx}
                   name={project.name}
-                  image={project.image}
+                  image1={project.image1}
+                  image2={project.image2}
+                  image3={project.image3}
                   desc={project.desc}
+                  bullet1={project.bullet1}
+                  bullet2={project.bullet2}
+                  bullet3={project.bullet3}
+                  bullet4={project.bullet4}
+                  tech1={project.tech1}
+                  tech2={project.tech2}
+                  tech3={project.tech3}
+                  tech4={project.tech4}
+                  tech5={project.tech5}
+                  tech6={project.tech6}
+                  tech7={project.tech7}
+                  tech8={project.tech8}
                   tags={""}
                 />
               )
