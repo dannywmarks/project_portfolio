@@ -119,7 +119,7 @@ export const projects = [
     tech5: "Photoshop",
     tech6: "Sub-stack",
     tech7: "Youtube API",
-    tech8: "React-Carousel",
+    tech8: "Carousel",
     bullet1: "Fun project to play with tailwind CSS for frontend design",
     bullet2: "First time using Tailwind CSS",
     bullet3: "First time using a CMS to manage content",
@@ -133,7 +133,7 @@ export const projects = [
     image2: "",
     image3: "",
     type: "web2",
-    desc: "Ecommerce frame work built while working on tour last summer. The concept is a user submits artwork to be tranposed onto blinds. Project is still being worked on to potentially be converted to a web2/web3 hybrid. ",
+    desc: "Ecommerce frame work built while working on tour last summer. The concept is a user submits artwork to be tranposed onto blinds. Project is still being worked on to potentially be converted to a web2/web3 hybrid, utilizing NFTs. ",
     tech1: "NextJS",
     tech2: "Tailwind CSS",
     tech3: "Sanity IO",
@@ -141,7 +141,7 @@ export const projects = [
     tech5: "Carousel",
     tech6: "Stripe",
     tech7: "Stuff",
-    tech8: "Really Complicated Language",
+    tech8: "Really Complicated",
     bullet1: "Basic Shopping Cart Functionality",
     bullet2: "Utilizes the STRIPE API",
     bullet3: "Sanity IO for Database/Content Management",
@@ -226,7 +226,7 @@ export const springBoard = {
   image5,
   author: "Danny Devage",
   title: "My Software Engineering Journey",
-  desc: "",
+  desc: "My Software Engineering Journey began as MoneyShot's traction started to slow. The cost of maintanance, app updates, and new features began to pile up and I felt frustrated that the lack of resources were impeding on my vision. That frustration was the catalyst that pointing me into the direction of learning how to code. I didn't take a traditional approach, through college, but began exploring the vast amount of free resources the internet had to offer. Feeling empowered and envigorated I journeyed down the rabbit hole.  ",
   date: "September, 20, 2022",
 };
 
@@ -238,6 +238,6 @@ export const moneyShot = {
   image10,
   author: "Danny Devage",
   title: "MoneyShot Mobile App",
-  desc: "",
+  desc: "MoneyShot was a mobile app designed for bar patrons to buy other bar patrons a drink digitally. The idea came from a neighborhood bar that I used to manage that used a chalk board as a ledger to keep track of drinks that regular customers would buy for other regulars who were not present at the time, but knew would eventually come in for a drink. With zero experience in tech I took the idea from napkin to both IOS store and Android store.",
   date: "August, 16, 2022",
 };

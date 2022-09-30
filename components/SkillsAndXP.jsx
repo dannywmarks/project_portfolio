@@ -1,8 +1,10 @@
 import React from "react";
+import { Timeline} from './Timeline'
 
 const SkillsAndXP = () => {
   return (
     <div className="mt-20">
+      <Timeline />
       <p className="font-pencil text-xl text-red-200 font-bold my-2 mt-14">
         &lt;h1&gt;
       </p>

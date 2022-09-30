@@ -4,6 +4,7 @@ import MS from "../public/assets/MoneyShot.svg";
 import Blog from "../public/assets/projects/uniswap_clone.png";
 import Profile from "../public/profile_pic.svg";
 
+
 const Card2 = ({
   author,
   title,
@@ -36,17 +37,17 @@ const Card2 = ({
                   className="inline-block text-lg font-bold dark:text-white"
                   href="#"
                 >
-                  Danny Devage
+                  {author}
                 </a>
               </div>
-              <div className="text-slate-500 dark:text-slate-300 dark:text-slate-400">
-                July 17, 2018
+              <div className="text-slate-500 dark:text-slate-300">
+                {date}
               </div>
             </div>
           </div>
         </div>
         <h2 className="text-3xl font-extrabold dark:text-white">
-          My Software Engineering Path
+          {title}
         </h2>
         <div className="py-4">
           <div className="flex justify-between">
@@ -109,10 +110,7 @@ const Card2 = ({
           </div>
         </div>
         <p className="dark:text-slate-200">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolores
-          in vitae delectus nemo necessitatibus nobis voluptates soluta possimus
-          odit mollitia sit quasi sed natus impedit expedita, optio amet debitis
-          hic vero earum libero reiciendis ipsa! At veniam officiis voluptatem.
+       {desc}
         </p>
         <div className="py-4"></div>
         <div className="relative">

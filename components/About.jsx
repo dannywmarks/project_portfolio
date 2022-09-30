@@ -4,6 +4,7 @@ import ProfilePic from "../public/profile_pic.svg";
 import { BlogCard } from "../components";
 import { moneyShot, springBoard} from '../utils/constants'
 
+
 const About = () => {
   const { image1, image2, image3, image4, image5} = springBoard
   const { image6, image7, image8, image9, image10 } = moneyShot
@@ -50,7 +51,9 @@ const About = () => {
             to take my hobby seriously I joined and completed the Springboard
             software engineering Bootcamp, which I specifically chose due to its
             heavy focus on building a foundation with both the Javascript and
-            Python languages.
+            Python languages. The free resources served their purpose, but 
+            without a clear structured path it became hard to see the forest through the trees.
+          
           </p>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/p&gt;
@@ -68,8 +71,8 @@ const About = () => {
         </div>
         <div>
           <div>
-            <BlogCard image1={image6} image2={image9} image3={image7} image4={image8} image5={image10}/>
-            <BlogCard image1={image1} image2={image2} image3={image3} image4={image4} image5={image5} />
+            <BlogCard desc={moneyShot.desc} author={moneyShot.author} date={moneyShot.date}title={moneyShot.title} image1={image6} image2={image9} image3={image7} image4={image8} image5={image10}/>
+            <BlogCard desc={springBoard.desc}  author={springBoard.author} date={springBoard.date} title={springBoard.title} image1={image1} image2={image2} image3={image3} image4={image4} image5={image5} />
     
           </div>
         </div>
