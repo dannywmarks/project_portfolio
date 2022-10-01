@@ -6,8 +6,8 @@ import { FaArrowDown } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className=" py-5 lg-py-10 lg:h-screen ">
-      <p className="font-pencil text-2xl text-red-200 font-bold" id="scroll-rotate">scroll</p>
-      <div id="scroll-down">
+      <p className="font-pencil text-2xl text-red-200 font-bold z-50" id="scroll-rotate">scroll</p>
+      <div id="scroll-down" className="z-50">
   
         <FaArrowDown className="text-4xl text-red-200"/></div>
       <div className="grid lg:grid-cols-2 items-center content-center h-full justify-items-center pb-20">

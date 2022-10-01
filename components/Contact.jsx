@@ -95,7 +95,7 @@ const Contact = () => {
             </label>
             <textarea
               className="mb-4 w-full flex-1 bg-white  font-poppins font-black text-2xl text-gray-900 p-2"
-              name="message"
+              name="message" rows="6"
             />
           </p>
           <p className="flex justify-end">
