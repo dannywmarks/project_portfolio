@@ -19,7 +19,7 @@ const Card2 = ({
   return (
     <>
       {/* <!-- Card--> */}
-      <article className="mb-4 break-inside p-6 rounded-xl bg-gray-900 flex flex-col bg-clip-border border-2 border-red-300">
+      <div className="mb-8 break-inside p-6 rounded-xl bg-gray-900 flex flex-col bg-clip-border border-2 border-red-300">
         <div className="flex pb-6 items-center justify-between">
           <div className="flex">
             <a className="inline-block mr-4" href="#">
@@ -123,7 +123,7 @@ const Card2 = ({
       
           </span> */}
         </div>
-      </article>
+      </div>
     </>
   );
 };

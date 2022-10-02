@@ -18,6 +18,16 @@ const Contact = () => {
 
   return (
     <div className="font-poppins">
+       <div className="flex items-center">
+          <p className="font-pencil text-xl text-red-200 font-bold ">
+            &lt;/h1&gt;
+          </p>
+          <h1 className="text-[4rem] font-bold font-script ml-2 text-white">Contact Me</h1>
+          <p className="font-pencil text-xl text-red-200 font-bold">
+            &lt;/h1&gt;
+          </p>
+          </div>
+         
       <div className="grid md:grid-cols-2 gap-6">
         <form
           className="text-white px-2 py-8"
@@ -25,22 +35,8 @@ const Contact = () => {
           method="post"
           onSubmit={handleOnSubmit}
         >
-          <p className="font-pencil text-xl text-red-200 font-bold my-2">
-            &lt;/h1&gt;
-          </p>
-          <h1 className="text-[6rem] font-bold font-script ml-2">Contact Me</h1>
-          <p className="font-pencil text-xl text-red-200 font-bold my-2">
-            &lt;/h1&gt;
-          </p>
-          <p className="font-pencil text-xl text-red-200 font-bold my-2">
-            &lt;p&gt;
-          </p>
-          <p className=" text-gray-300 font-poppins">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          </p>
-          <p className="font-pencil text-xl text-red-200 font-bold my-2">
-            &lt;/p&gt;
-          </p>
+         
+          
           <p className="text-red-200 text-xl font-bold font-pencil ">
             &lt;form&gt;
           </p>

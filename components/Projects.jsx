@@ -6,17 +6,20 @@ const Projects = () => {
   return (
     <div className="text-white text-2xl background-text z-10" id="projects">
       <div className="">
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
+        <div className="flex items-center">
+        <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;h1&gt;
         </p>
-        <h1 className="text-[6rem] font-bold py-10 font-script ml-2">
+        <h1 className="text-[4rem] font-bold py-10 font-script ml-2">
           My Projects
         </h1>
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
+        <p className="font-pencil text-xl text-red-200 font-bold">
           &lt;/h1&gt;
         </p>
+        </div>
+      
 
-        <p className="text-[2rem] text-gray-400 py-8 font-bold mt-8">
+        <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
           web3 projects{" "}
         </p>
 

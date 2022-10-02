@@ -15,20 +15,20 @@ export default function Home() {
           ME
         </div>
       </div>
-      <div className="work_box container">
-        <div className="work_box container">
-          <Projects id="work_small" />
-          <div className="-z-10" id="work_big">
-            WORK
-          </div>
-        </div>
-        <div className="work_box container " id="skills">
-          <SkillsAndXP id="work_small" />
-          <div className="-z-10" id="work_big">
-            SKILLS
-          </div>
-        </div>
 
+      <div className="work_box container">
+        <Projects id="work_small" />
+        <div className="-z-10" id="work_big">
+          WORK
+        </div>
+      </div>
+      <div className="work_box container" id="skills">
+        <SkillsAndXP id="work_small" />
+        <div className="-z-10" id="work_big">
+          SKILLS
+        </div>
+      </div>
+      <div className="work_box container">
         <Contact id="work_small" />
         <div className="-z-10" id="work_big">
           MAIL

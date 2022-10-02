@@ -2,27 +2,53 @@ import React from "react";
 import Image from "next/image";
 import ProfilePic from "../public/profile_pic.svg";
 import { BlogCard } from "../components";
-import { moneyShot, springBoard} from '../utils/constants'
-
+import { moneyShot, springBoard } from "../utils/constants";
 
 const About = () => {
-  const { image1, image2, image3, image4, image5} = springBoard
-  const { image6, image7, image8, image9, image10 } = moneyShot
+  const { image1, image2, image3, image4, image5 } = springBoard;
+  const { image6, image7, image8, image9, image10 } = moneyShot;
 
   return (
-    <div>
-      <div className="text-white grid md:grid-cols-2 gap-12">
-        <div className="text-xl">
-          <p className="font-pencil text-xl text-red-200 font-bold mb-10">
-            &lt;h1&gt;
-          </p>
-          <h1 className="text-[6rem] font-bold font-script text-white ml-2 ">
-            About
-          </h1>
-          <p className="font-pencil text-xl text-red-200 font-bold mt-10">
-            &lt;/h1&gt;
-          </p>
-          <p className="font-pencil text-xl text-red-200 font-bold mt-4">
+    <>
+      <div className="flex items-center mb-8">
+        <p className="font-pencil text-xl text-red-200 font-bold ">
+          &lt;h1&gt;
+        </p>
+        <h1 className="text-[4rem] font-bold font-script text-white ml-2 ">
+          My Journey
+        </h1>
+        <p className="font-pencil text-xl text-red-200 font-bold ">
+          &lt;/h1&gt;
+        </p>
+      </div>
+
+      <div className="text-white grid md:grid-cols-2 md:gap-2 xl:gap-8">
+        <div>
+          <div className="">
+            <BlogCard
+              desc={moneyShot.desc}
+              author={moneyShot.author}
+              date={moneyShot.date}
+              title={moneyShot.title}
+              image1={image6}
+              image2={image9}
+              image3={image7}
+              image4={image8}
+              image5={image10}
+            />
+            <BlogCard
+              desc={springBoard.desc}
+              author={springBoard.author}
+              date={springBoard.date}
+              title={springBoard.title}
+              image1={image1}
+              image2={image2}
+              image3={image3}
+              image4={image4}
+              image5={image5}
+            />
+          </div>
+          {/* <p className="font-pencil text-xl text-red-200 font-bold mt-4">
             &lt;p&gt;
           </p>
 
@@ -67,17 +93,36 @@ const About = () => {
           <p>Lets make something special</p>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/p&gt;
-          </p>
+          </p> */}
         </div>
         <div>
           <div>
-            <BlogCard desc={moneyShot.desc} author={moneyShot.author} date={moneyShot.date}title={moneyShot.title} image1={image6} image2={image9} image3={image7} image4={image8} image5={image10}/>
-            <BlogCard desc={springBoard.desc}  author={springBoard.author} date={springBoard.date} title={springBoard.title} image1={image1} image2={image2} image3={image3} image4={image4} image5={image5} />
-    
+            <BlogCard
+              desc={moneyShot.desc}
+              author={moneyShot.author}
+              date={moneyShot.date}
+              title={moneyShot.title}
+              image1={image6}
+              image2={image9}
+              image3={image7}
+              image4={image8}
+              image5={image10}
+            />
+            <BlogCard
+              desc={springBoard.desc}
+              author={springBoard.author}
+              date={springBoard.date}
+              title={springBoard.title}
+              image1={image1}
+              image2={image2}
+              image3={image3}
+              image4={image4}
+              image5={image5}
+            />
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
