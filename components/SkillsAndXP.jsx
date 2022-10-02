@@ -65,7 +65,7 @@ const SkillsAndXP = () => {
               </span>
             </li>
             <li className="p-2 my-2">
-              <h3>Orginization</h3>
+              <h3>Leadership</h3>
               <span className="bar">
                 {" "}
                 <span className="organization"></span>

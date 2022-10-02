@@ -6,7 +6,7 @@ import utpMain from '../public/assets/projects/UTP/utpTp.png'
 import lensMain from '../public/assets/projects/LENS/lensProtocol.png'
 import dappExchange from '../public/assets/blogImgs/dappUexchange.gif'
 import lens3 from '../public/assets/projects/LENS/lensProtocol3.png'
-import image1 from "../public/assets/blogImgs/bootcampAward.png";
+import image1 from "../public/assets/blogImgs/rabbit_hole.png";
 import image2 from "../public/assets/blogImgs/youtube.png";
 import image3 from "../public/assets/blogImgs/udemy.png";
 import image4 from "../public/assets/blogImgs/dappUniversity.jpg";

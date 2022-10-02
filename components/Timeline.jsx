@@ -24,6 +24,14 @@ import VS from '../public/icons8-visual-studio-code-2019.svg'
 import GC from '../public/icons8-chrome-48.png'
 import JEST from '../public/jest-logo-F9901EBBF7-seeklogo.com.png'
 import GIT from '../public/icons8-git.svg'
+import BLENDER from '../public/icons8-blender-3d.svg'
+import UNREAL from '../public/icons8-unreal-engine-64.png'
+import CPLUS from '../public/c.svg'
+import GOLANG from '../public/golang-gopher.svg'
+import RUST from '../public/rust-svgrepo-com.svg'
+import METAMASK from '../public/Metamask-icon.svg'
+import IPFS from '../public/ipfs-svgrepo-com.svg'
+import GRAPHQL from '../public/icons8-graphql.svg'
 
 
 
@@ -88,7 +96,7 @@ export const Timeline = () => {
               <div className="step-inner">TOOLS / DESIGN</div>
             </li>
             <li className="step step05"  onClick={(e) => changeClass(e)}>
-              <div className="step-inner">SOFT SKILLS</div>
+              <div className="step-inner">INTERESTS</div>
             </li>
           </ul>
           <div id="line">
@@ -99,12 +107,9 @@ export const Timeline = () => {
           <div className="section-content front-end active  bg-gray-900 rounded-lg">
             <h2>FRONT END</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              minima illum ullam omnis, assumenda cupiditate repellendus
-              voluptatem nemo ipsum quas doloribus quis magni numquam
-              reprehenderit vitae porro consequuntur veniam! Nulla totam eveniet
-              possimus error? Reprehenderit aperiam ipsa fugit nam
-              necessitatibus?
+              Building off my first codeacademy HTML course the stack listed below has become my every day toolbox when dealing with the frontend. 
+              Having a solid foundation of the Javascript language has allowed me to quickly understand various frameworks. Dealing with blockchain applications has 
+              given me a new perspective on strongly typed languages and have been excited to add typescript into my skillset.
             </p>
             <div className="p-4">
               <Image src={HTML} alt="html"/>
@@ -118,14 +123,9 @@ export const Timeline = () => {
           </div>
 
           <div className="section-content back-end bg-gray-900 rounded-lg">
-            <h2>BACKEND</h2>
+            <h2>BACK END</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              minima illum ullam omnis, assumenda cupiditate repellendus
-              voluptatem nemo ipsum quas doloribus quis magni numquam
-              reprehenderit vitae porro consequuntur veniam! Nulla totam eveniet
-              possimus error? Reprehenderit aperiam ipsa fugit nam
-              necessitatibus?
+              I have experience working with the back end creating RESTFUL API routes, Authorization and Authentication, Modeling database schemas and basic knowledge and use within NOSQL and SQL databases. I have recently been learning and using GRAPHQL to model and interact with API routes.
             </p>
             <div className="p-4">
               <Image src={PYTHON} alt="python"/>
@@ -133,37 +133,32 @@ export const Timeline = () => {
               <Image src={MONGODB} alt="mongodb"/>
               <Image src={MYSQL} alt="mysql"/>
               <Image src={POSTGRES} alt="postgres"/>
+              <Image src={GRAPHQL} alt="graphql" />
             </div>
           </div>
 
           <div className="section-content web-three bg-gray-900 rounded-lg">
             <h2>WEB3 / BLOCKCHAIN</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              minima illum ullam omnis, assumenda cupiditate repellendus
-              voluptatem nemo ipsum quas doloribus quis magni numquam
-              reprehenderit vitae porro consequuntur veniam! Nulla totam eveniet
-              possimus error? Reprehenderit aperiam ipsa fugit nam
-              necessitatibus?
+              The stack listed below is my current toolset when working on blockchain related projects. I have also experimented with hardhat, scaffold eth, and utilized Web3JS
+              library to interact with solidity contracts and localized blockchains, but Truffle and Ganache are the tools I am currently most familiar with. REACT/NEXTJS with Tailwind are my frontend libraries of choice.
             </p>
             <div className="p-4">
+            <Image src={METAMASK} alt="metamask"/>
               <Image src={SOLIDITY} alt="solidity"/>
               <Image src={ETHEREUM} alt="ethereum"/>
               <Image src={ETHERSJS} alt="ethers"/>
               <Image src={GANACHE} alt="ganache"/>
               <Image src={TRUFFLE} alt="truffle"/>
+              <Image src={IPFS} alt="ipfs" />
+            
             </div>
           </div>
 
           <div className="section-content design bg-gray-900 rounded-lg">
             <h2>TOOLS / DESIGN</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              minima illum ullam omnis, assumenda cupiditate repellendus
-              voluptatem nemo ipsum quas doloribus quis magni numquam
-              reprehenderit vitae porro consequuntur veniam! Nulla totam eveniet
-              possimus error? Reprehenderit aperiam ipsa fugit nam
-              necessitatibus?
+             A list of tools I am familiar with and use often when creating, designing, brainstorming, debugging, testing, or tracking.
             </p>
             <div className="p-4">
               <Image src={FIGMA} alt="figma"/>
@@ -177,21 +172,18 @@ export const Timeline = () => {
           </div>
 
           <div className="section-content soft-skills bg-gray-900 rounded-lg">
-            <h2>SOFT SKILLS</h2>
+            <h2>INTERESTS</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              minima illum ullam omnis, assumenda cupiditate repellendus
-              voluptatem nemo ipsum quas doloribus quis magni numquam
-              reprehenderit vitae porro consequuntur veniam! Nulla totam eveniet
-              possimus error? Reprehenderit aperiam ipsa fugit nam
-              necessitatibus?
+              My passion project is to create a 3d live music venue in a metaverse that resembles the late 80s punk club CBGBs. The club 
+              would utilize NFTs to facilitate interaction between the performers/artists and the users/fans. The technologies listed below are interests that
+              I have that could help build out my vision.
             </p>
             <div className="p-4">
-              <Image src={HTML} alt="html"/>
-              <Image src={CSS} alt="css"/>
-              <Image src={JAVASCRIPT} alt="javascript"/>
-              <Image src={TYPESCRIPT} alt="typescript"/>
-              <Image src={REACT} alt="react"/>
+              <Image src={BLENDER} alt="blender"/>
+              <Image src={UNREAL} alt="unreal engine"/>
+              <Image src={CPLUS} alt="cplus"/>
+              <Image src={GOLANG} alt="golang"/>
+              <Image src={RUST} alt="rust"/>
             </div>
           </div>
         </div>
