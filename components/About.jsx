@@ -2,11 +2,18 @@ import React from "react";
 import Image from "next/image";
 import ProfilePic from "../public/profile_pic.svg";
 import { BlogCard } from "../components";
-import { moneyShot, springBoard } from "../utils/constants";
+import {
+  moneyShot,
+  springBoard,
+  web3,
+  musicAndMartialArts,
+} from "../utils/constants";
 
 const About = () => {
   const { image1, image2, image3, image4, image5 } = springBoard;
   const { image6, image7, image8, image9, image10 } = moneyShot;
+  const { image11, image12, image13, image14, image15 } = web3;
+  const { image16, image17, image18, image19, image20} = musicAndMartialArts
 
   return (
     <>
@@ -98,26 +105,26 @@ const About = () => {
         <div>
           <div>
             <BlogCard
-              desc={moneyShot.desc}
-              author={moneyShot.author}
-              date={moneyShot.date}
-              title={moneyShot.title}
-              image1={image6}
-              image2={image9}
-              image3={image7}
-              image4={image8}
-              image5={image10}
+              desc={musicAndMartialArts.desc}
+              author={musicAndMartialArts.author}
+              date={musicAndMartialArts.date}
+              title={musicAndMartialArts.title}
+              image1={image16}
+              image2={image17}
+              image3={image18}
+              image4={image19}
+              image5={image20}
             />
             <BlogCard
-              desc={springBoard.desc}
-              author={springBoard.author}
-              date={springBoard.date}
-              title={springBoard.title}
+              desc={web3.desc}
+              author={web3.author}
+              date={web3.date}
+              title={web3.title}
               image1={image1}
               image2={image2}
               image3={image3}
-              image4={image4}
-              image5={image5}
+              image4={image14}
+              image5={image15}
             />
           </div>
         </div>

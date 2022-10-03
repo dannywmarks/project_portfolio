@@ -23,12 +23,14 @@ const Card2 = ({
         <div className="flex pb-6 items-center justify-between">
           <div className="flex">
             <a className="inline-block mr-4" href="#">
+              
               <Image
                 className="rounded-full max-w-none w-12 h-12"
                 src={Profile}
                 width={50}
                 height={50}
                 alt={title}
+            
               />
             </a>
             <div className="flex flex-col">

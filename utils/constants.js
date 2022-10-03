@@ -2,10 +2,10 @@ import uniswap from "../public/assets/projects/uniswap_clone.png";
 import custom_blinds from "../public/assets/projects/custom_blinds.png";
 import lens_protocol from "../public/assets/projects/lens_protocol.png";
 import utp from "../public/assets/projects/utp.png";
-import utpMain from '../public/assets/projects/UTP/utpTp.png'
-import lensMain from '../public/assets/projects/LENS/lensProtocol.png'
-import dappExchange from '../public/assets/blogImgs/dappUexchange.gif'
-import lens3 from '../public/assets/projects/LENS/lensProtocol3.png'
+import utpMain from "../public/assets/projects/UTP/utpTp.png";
+import lensMain from "../public/assets/projects/LENS/lensProtocol.png";
+import dappExchange from "../public/assets/blogImgs/dappUexchange.gif";
+import lens3 from "../public/assets/projects/LENS/lensProtocol3.png";
 import image1 from "../public/assets/blogImgs/rabbit_hole.png";
 import image2 from "../public/assets/blogImgs/youtube.png";
 import image3 from "../public/assets/blogImgs/udemy.png";
@@ -16,6 +16,16 @@ import image7 from "../public/assets/blogImgs/Ms/image8.png";
 import image8 from "../public/assets/blogImgs/Ms/image9.png";
 import image9 from "../public/assets/blogImgs/Ms/image7.png";
 import image10 from "../public/assets/blogImgs/Ms/image10.png";
+import image11 from "../public/assets/blogImgs/Ms/image10.png";
+import image12 from "../public/assets/blogImgs/Ms/image10.png";
+import image13 from "../public/assets/blogImgs/Ms/image10.png";
+import image14 from "../public/assets/blogImgs/WEB3/metaverse.jpg";
+import image15 from "../public/assets/blogImgs/WEB3/virtualReality.jpg"
+import image16 from "../public/assets/blogImgs/MandMA/cesar.jpg";
+import image17 from "../public/assets/blogImgs/MandMA/guardian.png";
+import image18 from "../public/assets/blogImgs/MandMA/skrappack.png";
+import image19 from "../public/assets/blogImgs/MandMA/summerGodsTOUR.jpg";
+import image20 from "../public/assets/blogImgs/MandMA/MAtraining.jpeg";
 
 export const projects = [
   {
@@ -148,7 +158,6 @@ export const projects = [
     bullet4: "Future features could involve NFTs",
     bullet5: "",
     url: "",
- 
   },
   // {
   //   name: "Technique Tracker",
@@ -241,3 +250,27 @@ export const moneyShot = {
   desc: "MoneyShot was a mobile app designed for bar patrons to buy other bar patrons a drink digitally. The idea came from a neighborhood bar that I used to manage that used a chalk board as a ledger to keep track of drinks that regular customers would buy for other regulars who were not present at the time, but knew would eventually come in for a drink. With zero experience in tech I took the idea from napkin to both IOS store and Android store.",
   date: "August, 16, 2022",
 };
+
+export const web3 = {
+  image11,
+  image12,
+  image13,
+  image14,
+  image15,
+  author: "Danny Devage",
+  title: "My Journey in web3",
+  desc: "MoneyShot was a mobile app designed for bar patrons to buy other bar patrons a drink digitally. The idea came from a neighborhood bar that I used to manage that used a chalk board as a ledger to keep track of drinks that regular customers would buy for other regulars who were not present at the time, but knew would eventually come in for a drink. With zero experience in tech I took the idea from napkin to both IOS store and Android store.",
+  date: "August, 16, 2022" 
+};
+
+export const musicAndMartialArts = {
+  image16,
+  image17,
+  image18,
+  image19,
+  image20,
+  author: "Danny Devage",
+  title: "Music and The Martial Arts",
+  desc: "MoneyShot was a mobile app designed for bar patrons to buy other bar patrons a drink digitally. The idea came from a neighborhood bar that I used to manage that used a chalk board as a ledger to keep track of drinks that regular customers would buy for other regulars who were not present at the time, but knew would eventually come in for a drink. With zero experience in tech I took the idea from napkin to both IOS store and Android store.",
+  date: "August, 16, 2022"
+}
