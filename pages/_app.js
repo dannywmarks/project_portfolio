@@ -1,7 +1,8 @@
 import "../styles/globals.css";
-import { Navbar, Sidebar, Hero, Footer } from "../components";
+import { Navbar, Sidebar2, Hero, Footer } from "../components";
 import { getPosts } from "../services";
 import styles from '../styles'
+
 
 function MyApp({ Component, pageProps }) {
 
@@ -11,10 +12,11 @@ function MyApp({ Component, pageProps }) {
 
       <Navbar />
       <div className="flex">
-        <div className="xs:hidden sm:hidden md:block h-[100vh] overflow-hidden xl:hover:overflow-auto bg-black">
-          <Sidebar />
+        <div className="block h-[100vh]  bg-black relative ">
+          <Sidebar2 />
+         
         </div>
-        <div className="mt-4 overflow-auto h-[100vh] flex-1">
+        <div className="mt-4 overflow-auto h-screen mx-auto">
           <Component {...pageProps} />
         </div>
       </div>

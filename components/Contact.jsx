@@ -1,6 +1,6 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
-import mapStyles from '../styles/mapStyles.js'
+import mapStyles from "../styles/mapStyles.js";
 
 const Contact = () => {
   async function handleOnSubmit(e) {
@@ -18,25 +18,39 @@ const Contact = () => {
 
   return (
     <div className="font-poppins">
-       <div className="flex items-center">
-          <p className="font-pencil text-xl text-red-200 font-bold ">
-            &lt;/h1&gt;
-          </p>
-          <h1 className="text-[4rem] font-bold font-script ml-2 text-white">Contact Me</h1>
-          <p className="font-pencil text-xl text-red-200 font-bold">
-            &lt;/h1&gt;
-          </p>
-          </div>
-         
+      
       <div className="grid md:grid-cols-2 gap-6">
+        
         <form
           className="text-white px-2 py-8"
           action=""
           method="post"
           onSubmit={handleOnSubmit}
         >
-         
-          
+            <div className="flex items-center">
+            <p className="font-pencil text-xl text-red-200 font-bold ">
+              &lt;/h1&gt;
+            </p>
+            <h1 className="text-[4rem] font-bold font-script ml-2 text-white">
+              Contact Me
+            </h1>
+            <p className="font-pencil text-xl text-red-200 font-bold">
+              &lt;/h1&gt;
+            </p>
+          </div>
+
+          <div className="flex">
+            <p className="font-pencil text-xl text-red-200 font-bold ">
+              &lt;p&gt;
+            </p>
+            <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+              let us build something cool{" "}
+            </p>
+            <p className="font-pencil text-xl text-red-200 font-bold">
+              &lt;/p&gt;
+            </p>
+          </div>
+        
           <p className="text-red-200 text-xl font-bold font-pencil ">
             &lt;form&gt;
           </p>
@@ -91,7 +105,8 @@ const Contact = () => {
             </label>
             <textarea
               className="mb-4 w-full flex-1 bg-white  font-poppins font-black text-2xl text-gray-900 p-2"
-              name="message" rows="6"
+              name="message"
+              rows="6"
             />
           </p>
           <p className="flex justify-end">
@@ -100,18 +115,24 @@ const Contact = () => {
             </button>
           </p>
           <p className="text-red-200 text-xl font-bold font-pencil">
-        &lt;/form&gt;
-      </p>
+            &lt;/form&gt;
+          </p>
         </form>
 
-        <div className="text-3xl text-white w-full h-full py-20 px-6 opacity-30">
-          <GoogleMapReact 
-            bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY }}
+        <div className="text-3xl text-white w-full h-full py-20 px-6 opacity-30 mt-6">
+          <GoogleMapReact
+            bootstrapURLKeys={{
+              key: process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY,
+            }}
             defaultCenter={{ lat: 10.99835602, lng: 77.01502627 }}
             center={{ lat: 10.99835602, lng: 77.01502627 }}
             defaultZoom={14}
             margin={[50, 50, 50, 50]}
-            options={{ disableDefaultUI: true, zoomControl: true, styles: mapStyles}}
+            options={{
+              disableDefaultUI: true,
+              zoomControl: true,
+              styles: mapStyles,
+            }}
           />
         </div>
       </div>

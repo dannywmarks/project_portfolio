@@ -16,8 +16,8 @@ const About = () => {
   const { image16, image17, image18, image19, image20} = musicAndMartialArts
 
   return (
-    <>
-      <div className="flex items-center mb-8">
+    <div className="mt-40">
+      <div className="flex items-center mb-2">
         <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;h1&gt;
         </p>
@@ -26,6 +26,18 @@ const About = () => {
         </h1>
         <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;/h1&gt;
+        </p>
+        
+      </div>
+      <div className="flex">
+      <p className="font-pencil text-xl text-red-200 font-bold ">
+          &lt;p&gt;
+        </p>
+        <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+          about me{" "}
+        </p>
+        <p className="font-pencil text-xl text-red-200 font-bold">
+          &lt;/p&gt;
         </p>
       </div>
 
@@ -43,17 +55,18 @@ const About = () => {
               image4={image8}
               image5={image10}
             />
-            <BlogCard
-              desc={springBoard.desc}
-              author={springBoard.author}
-              date={springBoard.date}
-              title={springBoard.title}
-              image1={image1}
-              image2={image2}
-              image3={image3}
-              image4={image4}
-              image5={image5}
+                <BlogCard
+              desc={web3.desc}
+              author={web3.author}
+              date={web3.date}
+              title={web3.title}
+              image1={image11}
+              image2={image12}
+              image3={image13}
+              image4={image14}
+              image5={image15}
             />
+          
           </div>
           {/* <p className="font-pencil text-xl text-red-200 font-bold mt-4">
             &lt;p&gt;
@@ -104,7 +117,19 @@ const About = () => {
         </div>
         <div>
           <div>
-            <BlogCard
+          
+              <BlogCard
+              desc={springBoard.desc}
+              author={springBoard.author}
+              date={springBoard.date}
+              title={springBoard.title}
+              image1={image1}
+              image2={image2}
+              image3={image3}
+              image4={image4}
+              image5={image5}
+            />
+              <BlogCard
               desc={musicAndMartialArts.desc}
               author={musicAndMartialArts.author}
               date={musicAndMartialArts.date}
@@ -115,21 +140,11 @@ const About = () => {
               image4={image19}
               image5={image20}
             />
-            <BlogCard
-              desc={web3.desc}
-              author={web3.author}
-              date={web3.date}
-              title={web3.title}
-              image1={image1}
-              image2={image2}
-              image3={image3}
-              image4={image14}
-              image5={image15}
-            />
+        
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

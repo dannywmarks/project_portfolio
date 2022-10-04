@@ -36,47 +36,11 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-*/ .gradient_btn {
-  background: linear-gradient(
-    103.91deg,
-    #9b51e0 21.01%,
-    rgba(48, 129, 237, 0.8) 100%
-  );
-}
 
-.pink_gradient {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 123px;
-  height: 123px;
-  border-radius: 50%;
 
-  background: #fb37ff;
-  filter: blur(200px);
-}
 
-.blue_gradient {
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  width: 123px;
-  height: 123px;
-  border-radius: 50%;
 
-  background: #18b2de;
-  filter: blur(200px);
-}
 
-.gradient-border {
-  background: linear-gradient(
-    168.82deg,
-    #fb37ff 1.7%,
-    rgba(155, 111, 238, 0) 27.12%,
-    rgba(123, 127, 234, 0) 61.28%,
-    #1bb2de 99.52%
-  );
-}
 
 .background-text {
   overflow: hidden;
@@ -117,7 +81,7 @@ input[type="number"] {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
-  padding: 10px;
+  padding: 0px;
   margin: 0;
   bottom: 0;
   right: 15;

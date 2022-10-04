@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="text-white bg-black w-full py-2 px-4 hidden ">
+    <div className="text-white bg-black w-full py-2 px-4 hidden">
       <p className="font-bold text-3xl">D W M</p>
       <Link href="/">
         <div>

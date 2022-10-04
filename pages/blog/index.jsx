@@ -5,7 +5,7 @@ import FeaturedPosts from "../../sections/FeaturedPosts";
 
 const Blog = ({ posts }) => {
   return (
-    <div className="contaienr mx-auto px-8 mb-8">
+    <div className="container mx-auto px-8 mb-8">
       <BlogHeader />
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">

@@ -18,10 +18,18 @@ const Projects = () => {
         </p>
         </div>
       
-
+      <div className="flex">
+      <p className="font-pencil text-xl text-red-200 font-bold ">
+          &lt;p&gt;
+        </p>
         <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
           web3 projects{" "}
         </p>
+        <p className="font-pencil text-xl text-red-200 font-bold">
+          &lt;/p&gt;
+        </p>
+      </div>
+       
 
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 z-10 place-items-center">
           {projects.map(
@@ -52,9 +60,17 @@ const Projects = () => {
               )
           )}
         </div>
-        <p className="text-[2rem] text-gray-400 py-8 font-bold">
-          web2 projects
+        <div className="flex mt-6">
+      <p className="font-pencil text-xl text-red-200 font-bold ">
+          &lt;p&gt;
         </p>
+        <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+          web2 projects{" "}
+        </p>
+        <p className="font-pencil text-xl text-red-200 font-bold">
+          &lt;/p&gt;
+        </p>
+      </div>
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 place-items-center z-10">
           {projects.map(
             (project, idx) =>

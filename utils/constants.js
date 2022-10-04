@@ -16,12 +16,12 @@ import image7 from "../public/assets/blogImgs/Ms/image8.png";
 import image8 from "../public/assets/blogImgs/Ms/image9.png";
 import image9 from "../public/assets/blogImgs/Ms/image7.png";
 import image10 from "../public/assets/blogImgs/Ms/image10.png";
-import image11 from "../public/assets/blogImgs/Ms/image10.png";
-import image12 from "../public/assets/blogImgs/Ms/image10.png";
-import image13 from "../public/assets/blogImgs/Ms/image10.png";
+import image11 from "../public/assets/blogImgs/WEB3/web3.png";
+import image12 from "../public/assets/blogImgs/WEB3/boredApes.png";
+import image13 from "../public/assets/blogImgs/WEB3/ethereum2.jpg";
 import image14 from "../public/assets/blogImgs/WEB3/metaverse.jpg";
-import image15 from "../public/assets/blogImgs/WEB3/virtualReality.jpg"
-import image16 from "../public/assets/blogImgs/MandMA/cesar.jpg";
+import image15 from "../public/assets/blogImgs/WEB3/virtualReality.jpg";
+import image16 from "../public/assets/blogImgs/MandMA/gracie-fighter-brazilian-jiu-jitsu-benicia-boxing-martial-arts.png";
 import image17 from "../public/assets/blogImgs/MandMA/guardian.png";
 import image18 from "../public/assets/blogImgs/MandMA/skrappack.png";
 import image19 from "../public/assets/blogImgs/MandMA/summerGodsTOUR.jpg";
@@ -235,7 +235,7 @@ export const springBoard = {
   image5,
   author: "Danny Devage",
   title: "My Software Engineering Journey",
-  desc: "My Software Engineering Journey began as MoneyShot's traction started to slow. The cost of maintanance, app updates, and new features began to pile up and I felt frustrated that the lack of resources were impeding on my vision. That frustration was the catalyst that pointing me into the direction of learning how to code. I didn't take a traditional approach, through college, but began exploring the vast amount of free resources the internet had to offer. Feeling empowered and envigorated I journeyed down the rabbit hole.  ",
+  desc: "The journey began as MoneyShot's traction started to slow. The cost of maintanance, app updates, and new features began to pile up and I felt frustrated that the lack of resources were impeding on my vision. That frustration was the catalyst that pointing me into the direction of learning how to code. I didn't take a traditional approach, through college, but began exploring the vast amount of free resources the internet had to offer. Feeling empowered and envigorated I journeyed down the rabbit hole.  ",
   date: "September, 20, 2022",
 };
 
@@ -260,7 +260,7 @@ export const web3 = {
   author: "Danny Devage",
   title: "My Journey in web3",
   desc: "MoneyShot was a mobile app designed for bar patrons to buy other bar patrons a drink digitally. The idea came from a neighborhood bar that I used to manage that used a chalk board as a ledger to keep track of drinks that regular customers would buy for other regulars who were not present at the time, but knew would eventually come in for a drink. With zero experience in tech I took the idea from napkin to both IOS store and Android store.",
-  date: "August, 16, 2022" 
+  date: "August, 16, 2022",
 };
 
 export const musicAndMartialArts = {
@@ -272,5 +272,5 @@ export const musicAndMartialArts = {
   author: "Danny Devage",
   title: "Music and The Martial Arts",
   desc: "MoneyShot was a mobile app designed for bar patrons to buy other bar patrons a drink digitally. The idea came from a neighborhood bar that I used to manage that used a chalk board as a ledger to keep track of drinks that regular customers would buy for other regulars who were not present at the time, but knew would eventually come in for a drink. With zero experience in tech I took the idea from napkin to both IOS store and Android store.",
-  date: "August, 16, 2022"
-}
+  date: "August, 16, 2022",
+};

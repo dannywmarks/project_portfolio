@@ -3,7 +3,7 @@ import { Timeline } from "./Timeline";
 
 const SkillsAndXP = () => {
   return (
-    <div className="my-20 h-full md:h-screen">
+    <div className="mt-20 h-full md:h-screen">
       <div className="flex items-center">
         <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;h1&gt;
@@ -13,6 +13,17 @@ const SkillsAndXP = () => {
         </p>
         <p className="font-pencil text-xl text-red-200 font-bold">
           &lt;/h1&gt;
+        </p>
+      </div>
+      <div className="flex">
+      <p className="font-pencil text-xl text-red-200 font-bold ">
+          &lt;p&gt;
+        </p>
+        <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+          strengths and skillsets{" "}
+        </p>
+        <p className="font-pencil text-xl text-red-200 font-bold">
+          &lt;/p&gt;
         </p>
       </div>
 
