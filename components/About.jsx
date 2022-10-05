@@ -41,7 +41,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="text-white grid md:grid-cols-2 md:gap-2 xl:gap-8">
+      <div className="text-white grid lg:grid-cols-2 gap-2 xl:gap-8">
         <div>
           <div className="">
             <BlogCard

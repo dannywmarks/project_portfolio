@@ -36,7 +36,7 @@ const SideBar2 = () => {
                 : "flex flex-col h-full text-red-300 font-poppins font-bold text-4xl mb-4 -mt-2"
             }`}
           >
-            D <span className="text-white -mt-1">M</span>
+           <span className="text-white mx-auto ">D</span>W<span className="text-gray-600 -mt-1">M</span>
           </p>
           <Link href="/">
             <Image src={Profile} alt="profile" width={100} height={100} />
@@ -46,7 +46,7 @@ const SideBar2 = () => {
               {" "}
               <div className="py-4">
                 <p className="text-white text-2xl font-bold font-script text-center">
-                  Danny Marks
+                  Danny W. Marks
                 </p>
                 <span className="text-center text-white font-poppins">
                   Full Stack Developer
@@ -170,7 +170,10 @@ const SideBar2 = () => {
               url="mailto:dannywmarks@gmail.com"
               bgColor="#fff"
             />
+              <div className="text-red-300 font-pencil -rotate-90 mt-20 text-3xl">Marks</div>
+             <div className="text-red-300 font-pencil -rotate-90 py-16 text-3xl">Danny</div>
           </div>
+         
         )}
       </div>
     </div>
