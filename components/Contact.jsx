@@ -17,7 +17,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="font-poppins">
+    <div className="font-poppins mt-20">
       <div className="grid lg:grid-cols-2 gap-6">
         <div>
           <form
@@ -30,7 +30,7 @@ const Contact = () => {
               <p className="font-pencil text-xl text-red-200 font-bold ">
                 &lt;/h1&gt;
               </p>
-              <h1 className="text-[4rem] font-bold font-script ml-2 text-white">
+              <h1 className="text-4xl sm:text-[4rem] font-bold font-script ml-2 mb-4 text-white">
                 Contact Me
               </h1>
               <p className="font-pencil text-xl text-red-200 font-bold">
@@ -42,7 +42,7 @@ const Contact = () => {
               <p className="font-pencil text-xl text-red-200 font-bold ">
                 &lt;p&gt;
               </p>
-              <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+              <p className="text-xl sm:text-[2rem] text-gray-400 mb-8 font-bold ">
                 let us build something cool{" "}
               </p>
               <p className="font-pencil text-xl text-red-200 font-bold">

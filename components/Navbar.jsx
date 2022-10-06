@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="text-white bg-gray-900  py-6 px-4 hidden">
-      <p className="font-bold text-3xl">D W M</p>
+    <nav className="text-white bg-gray-900  py-6 px-4 ">
+  
 
         <div className="flex mt-4">
         <Link href="/">

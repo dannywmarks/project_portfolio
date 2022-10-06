@@ -3,12 +3,12 @@ import { Timeline } from "./Timeline";
 
 const SkillsAndXP = () => {
   return (
-    <div className="mt-20 h-full ">
+    <div className="mt-20 h-full sm:h-screen ">
       <div className="flex items-center">
         <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;h1&gt;
         </p>
-        <p className="text-[4rem] font-bold font-script text-white ml-2">
+        <p className="text-4xl sm:text-[4rem]  font-bold font-script text-white ml-2">
           My Toolbox
         </p>
         <p className="font-pencil text-xl text-red-200 font-bold">
@@ -19,7 +19,7 @@ const SkillsAndXP = () => {
       <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;p&gt;
         </p>
-        <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+        <p className="text-xl sm:text-[2rem] text-gray-400 mb-8 mt-4 font-bold ">
           strengths and skillsets{" "}
         </p>
         <p className="font-pencil text-xl text-red-200 font-bold">

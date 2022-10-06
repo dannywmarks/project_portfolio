@@ -9,10 +9,12 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div className="bg-gray-800">
-
+      <div className="block sm:hidden">
       <Navbar />
+      </div>
+    
       <div className="flex">
-        <div className="block h-[100vh]  bg-black relative ">
+        <div className="bg-gray-900 hidden sm:block ">
           <Sidebar2 />
          
         </div>

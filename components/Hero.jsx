@@ -16,12 +16,12 @@ const Hero = () => {
         <FaArrowDown className="text-4xl text-red-200" />
       </div>
       <div className="grid lg:grid-cols-2 items-center content-center h-full justify-items-center pb-20 px-5">
-        <div className="text-white flex flex-col justify-center order-2 lg:order-1  w-full ">
+        <div className="text-white flex flex-col justify-center order-2 lg:order-1  w-full  ">
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;h1&gt;
           </p>
-          <p className="font-bold font-poppins text-8xl ">Hi,</p>
-          <p className="font-bold font-poppins text-8xl ">
+          <p className="font-bold font-poppins text-7xl sm:text-8xl">Hi,</p>
+          <p className="font-bold font-poppins text-7xl sm:text-8xl">
             {" "}
             I am <span className="font-script text-red-300">Danny</span>
           </p>
@@ -31,14 +31,14 @@ const Hero = () => {
           <p className="font-pencil text-xl text-red-200 font-bold">
             &lt;h2&gt;
           </p>
-          <p className="text-6xl font-poppins">a full stack developer</p>
+          <p className="text-4xl sm:text-6xl font-poppins">a full stack developer</p>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/h2&gt;
           </p>
           <p className="font-pencil text-xl text-red-200 font-bold">
             &lt;h4&gt;
           </p>
-          <p className="text-4xl text-gray-400 font-poppins">
+          <p className="text-2xl sm:text-4xl text-gray-400 font-poppins">
             in the web2 & web3 spaces
           </p>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">

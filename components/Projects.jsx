@@ -10,7 +10,7 @@ const Projects = () => {
         <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;h1&gt;
         </p>
-        <h1 className="text-[4rem] font-bold py-10 font-script ml-2">
+        <h1 className="text-4xl sm:text-[4rem] font-bold mb-4 pt-10 font-script ml-2">
           My Projects
         </h1>
         <p className="font-pencil text-xl text-red-200 font-bold">
@@ -22,7 +22,7 @@ const Projects = () => {
       <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;p&gt;
         </p>
-        <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+        <p className="text-2xl sm:text-2xl sm:text-[2rem] text-gray-400 mb-8 font-bold ">
           web3 projects{" "}
         </p>
         <p className="font-pencil text-xl text-red-200 font-bold">
@@ -64,7 +64,7 @@ const Projects = () => {
       <p className="font-pencil text-xl text-red-200 font-bold ">
           &lt;p&gt;
         </p>
-        <p className="text-[2rem] text-gray-400 mb-8 font-bold ">
+        <p className="text-2xl sm:text-[2rem] text-gray-400 mb-8 font-bold ">
           web2 projects{" "}
         </p>
         <p className="font-pencil text-xl text-red-200 font-bold">
