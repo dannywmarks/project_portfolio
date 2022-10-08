@@ -2,29 +2,27 @@ import React from "react";
 import Image from "next/image";
 import Developer from "../public/assets/undraw-developer.svg";
 import { FaArrowDown } from "react-icons/fa";
+import { SocialIcon } from "react-social-icons";
 
 const Hero = () => {
   return (
     <section className="mt-20">
       <p
-        className="font-pencil text-2xl text-red-200 font-bold z-50"
+        className="font-pencil text-2xl text-red-200 font-bold z-50 "
         id="scroll-rotate"
       >
         scroll
       </p>
-      <div id="scroll-down" className="z-50">
+      <div id="scroll-down" className="z-50 animate-bounce ">
         <FaArrowDown className="text-4xl text-red-200" />
       </div>
       <div className="grid lg:grid-cols-2 items-center content-center h-full justify-items-center pb-20 px-5">
         <div className="text-white flex flex-col justify-center order-2 lg:order-1  w-full  ">
-          <p className="font-pencil text-xl text-red-200 font-bold my-2">
+          <p className="font-pencil text-xl text-red-200 font-bold my-4">
             &lt;h1&gt;
           </p>
-          <p className="font-bold font-poppins text-7xl sm:text-8xl">Hi,</p>
-          <p className="font-bold font-poppins text-7xl sm:text-8xl">
-            {" "}
-            I am <span className="font-script text-red-300">Danny</span>
-          </p>
+          <p className="font-bold font-poppins text-6xl sm:text-8xl animate-bounce">Hi!</p>
+          <p className="font-bold font-poppins text-6xl sm:text-8xl ">I am <span className="font-script text-red-300">Danny</span></p>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/h1&gt;
           </p>
@@ -38,16 +36,39 @@ const Hero = () => {
           <p className="font-pencil text-xl text-red-200 font-bold">
             &lt;h4&gt;
           </p>
-          <p className="text-2xl sm:text-4xl text-gray-400 font-poppins">
+          <p className="text-2xl sm:text-4xl text-gray-400 font-poppins animate-pulse">
             in the web2 & web3 spaces
           </p>
           <p className="font-pencil text-xl text-red-200 font-bold my-2">
             &lt;/h4&gt;
           </p>
 
-          <button className="border-black py-4 w-60 my-4 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black font-poppins">
+          <button className="hidden sm:block border-black py-4 w-60 my-4 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black font-poppins">
             Contact
           </button>
+
+          <div className="w-full sm:hidden ">
+              <div className="duration-300 ease-in-out text-center ">
+                <SocialIcon
+                className="mx-4"
+                  style={{ height: 37, width: 37 }}
+                  url="https://linkedin.com/in/dannywmarks"
+                  bgColor="#fff"
+                />
+                <SocialIcon
+                  className=""
+                  style={{ height: 37, width: 37 }}
+                  url="https://github.com/dannywmarks"
+                  bgColor="#fff"
+                />
+                <SocialIcon
+                  className="mx-4"
+                  style={{ height: 37, width: 37 }}
+                  url="mailto:dannywmarks@gmail.com"
+                  bgColor="#fff"
+                />
+              </div>
+            </div>
         </div>
         <div className="order-1 lg:order-2 mr-5 h-full w-full relative max-w-xlg">
           <div className="flex flex-col content-center h-full">

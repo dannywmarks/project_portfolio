@@ -3,7 +3,7 @@ import { Hero, Projects, About, SkillsAndXP, Contact } from "../components";
 
 export default function Home() {
   return (
-    <div className="mx-auto container px-8  mb-8  ">
+    <div className="mx-auto container px-2 sm:px-4  mb-8  ">
       <Head>
         <title>Danny Marks Portfolio</title>
         <link rel="icon" href="/favicon.ico" />

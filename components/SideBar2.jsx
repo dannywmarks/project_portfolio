@@ -17,7 +17,6 @@ const SideBar2 = () => {
   const notActiveLink = "py-2 border-t border-b hover:text-red-300 text-white ";
   return (
     <div className="h-screen">
-   
       <div
         className={`duration-500 ease-in-out relative bg-gray-900 p-5 pt-8 ${
           open ? "w-60" : "w-20 flex flex-col h-full justify-between "
@@ -29,26 +28,26 @@ const SideBar2 = () => {
           }`}
           onClick={() => setOpen(!open)}
         />
-        <div className="flex flex-col h-full justify-around duration-500">
-          <div className="flex flex-col items-center duration-500">
+        <div className="flex flex-col h-full justify-around ">
+          <div className="flex flex-col items-center ">
             <p
               className={`${
                 open
-                  ? "text-[4rem] font-bold cursor-pointer text-red-300 font-poppins mx-auto"
-                  : "flex flex-col h-full text-red-300 font-poppins font-bold text-4xl mb-4 -mt-2"
+                  ? "text-[4rem] font-bold cursor-pointer text-red-300 font-poppins mx-auto duration-500 "
+                  : "flex flex-col h-full text-red-300 font-poppins font-bold text-4xl mb-4 -mt-2 duration-500 "
               }`}
             >
               <span className="text-white mx-auto ">D</span>W
               <span className="text-gray-600 -mt-1">M</span>
             </p>
-            <div>
+            <div className="">
               <Link href="/">
                 <Image src={Profile} alt="profile" width={100} height={100} />
               </Link>
             </div>
 
             {open ? (
-              <div>
+              <div className="duration-500">
                 {" "}
                 <div className="py-4">
                   <p className="text-white text-2xl font-bold font-script text-center">
@@ -61,8 +60,8 @@ const SideBar2 = () => {
                 <div
                   className={`${
                     open
-                      ? "flex justify-center"
-                      : "ease-in-out duration-300 hidden"
+                      ? "flex justify-center duration-500 ease-in"
+                      : "ease-in duration-500 hidden"
                   } `}
                 >
                   <a
@@ -75,7 +74,7 @@ const SideBar2 = () => {
                 </div>{" "}
               </div>
             ) : (
-              <div className="mt-4">
+              <div className="mt-4 duration-500">
                 <div className="mt-4">
                   <Image src={Resume} width={64} height={64} />
                 </div>
@@ -187,8 +186,6 @@ const SideBar2 = () => {
           )}
         </div>
       </div>
-     
-      
     </div>
   );
 };

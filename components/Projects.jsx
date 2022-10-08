@@ -7,29 +7,28 @@ const Projects = () => {
     <div className="text-white text-2xl background-text z-10" id="projects">
       <div className="">
         <div className="flex items-center">
-        <p className="font-pencil text-xl text-red-200 font-bold ">
-          &lt;h1&gt;
-        </p>
-        <h1 className="text-4xl sm:text-[4rem] font-bold mb-4 pt-10 font-script ml-2">
-          My Projects
-        </h1>
-        <p className="font-pencil text-xl text-red-200 font-bold">
-          &lt;/h1&gt;
-        </p>
+          <p className="font-pencil text-xl text-red-200 font-bold ">
+            &lt;h1&gt;
+          </p>
+          <h1 className="text-4xl sm:text-[4rem] font-bold mb-4 pt-10 font-script ml-2">
+            My Projects
+          </h1>
+          <p className="font-pencil text-xl text-red-200 font-bold">
+            &lt;/h1&gt;
+          </p>
         </div>
-      
-      <div className="flex">
-      <p className="font-pencil text-xl text-red-200 font-bold ">
-          &lt;p&gt;
-        </p>
-        <p className="text-2xl sm:text-2xl sm:text-[2rem] text-gray-400 mb-8 font-bold ">
-          web3 projects{" "}
-        </p>
-        <p className="font-pencil text-xl text-red-200 font-bold">
-          &lt;/p&gt;
-        </p>
-      </div>
-       
+
+        <div className="flex">
+          <p className="font-pencil text-xl text-red-200 font-bold ">
+            &lt;p&gt;
+          </p>
+          <p className="text-2xl sm:text-2xl sm:text-[2rem] text-gray-400 mb-8 font-bold ">
+            web3 projects{" "}
+          </p>
+          <p className="font-pencil text-xl text-red-200 font-bold">
+            &lt;/p&gt;
+          </p>
+        </div>
 
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 z-10 place-items-center">
           {projects.map(
@@ -61,16 +60,16 @@ const Projects = () => {
           )}
         </div>
         <div className="flex mt-6">
-      <p className="font-pencil text-xl text-red-200 font-bold ">
-          &lt;p&gt;
-        </p>
-        <p className="text-2xl sm:text-[2rem] text-gray-400 mb-8 font-bold ">
-          web2 projects{" "}
-        </p>
-        <p className="font-pencil text-xl text-red-200 font-bold">
-          &lt;/p&gt;
-        </p>
-      </div>
+          <p className="font-pencil text-xl text-red-200 font-bold ">
+            &lt;p&gt;
+          </p>
+          <p className="text-2xl sm:text-[2rem] text-gray-400 mb-8 font-bold ">
+            web2 projects{" "}
+          </p>
+          <p className="font-pencil text-xl text-red-200 font-bold">
+            &lt;/p&gt;
+          </p>
+        </div>
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4 place-items-center z-10">
           {projects.map(
             (project, idx) =>
@@ -102,21 +101,23 @@ const Projects = () => {
         </div>
       </div>
       <div className="mt-10">
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
-          &lt;p&gt;
-        </p>
-        <p className=" text-gray-300 font-poppins">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          dolorum similique iusto quidem nam ipsum cum, debitis ab est
-          consectetur fugiat laborum ducimus obcaecati, soluta, dolores odit
-          perferendis dolore nulla.
-        </p>
-        <p className="font-pencil text-xl text-red-200 font-bold my-2">
-          &lt;/p&gt;
-        </p>
-        <button className=" border-black py-4 w-60 mt-6 ml-2 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black font-poppins">
-          See More!
-        </button>
+        <div className="container px-2 w-full">
+          <p className="font-pencil text-xl text-red-200 font-bold my-2">
+            &lt;p&gt;
+          </p>
+          <p className=" text-gray-300 font-poppins">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+            dolorum similique iusto quidem nam ipsum cum, debitis ab est
+            consectetur fugiat laborum ducimus obcaecati, soluta, dolores odit
+            perferendis dolore nulla.
+          </p>
+          <p className="font-pencil text-xl text-red-200 font-bold my-2">
+            &lt;/p&gt;
+          </p>
+          <button className=" border-black py-4 w-full sm:w-60 mt-6 text-2xl text-red-300 font-bold outline hover:bg-red-200 hover:text-black font-poppins">
+            See More!
+          </button>
+        </div>
 
         <p className="text-red-200 mt-8">
           &gt;&gt; git commit -m &quot;I love coding, check out some of my
