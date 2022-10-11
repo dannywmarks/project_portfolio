@@ -84,16 +84,16 @@ export const Timeline = () => {
         <div id="progress-bar-container">
           <ul>
             <li className="step step01 active" onClick={(e) => changeClass(e)}>
-              <div className="step-inner">FRONT END</div>
+              <div className="step-inner">FRONT</div>
             </li>
             <li className="step step02"  onClick={(e) => changeClass(e)}>
-              <div className="step-inner ">BACK END</div>
+              <div className="step-inner ">BACK</div>
             </li>
             <li className="step step03 " onClick={changeClass}>
               <div className="step-inner">WEB3</div>
             </li>
             <li className="step step04"  onClick={(e) => changeClass(e)}>
-              <div className="step-inner">TOOLS / DESIGN</div>
+              <div className="step-inner">TOOLS </div>
             </li>
             <li className="step step05"  onClick={(e) => changeClass(e)}>
               <div className="step-inner">INTERESTS</div>

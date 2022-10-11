@@ -117,7 +117,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="text-3xl text-white w-full py-20 px-6 opacity-30 mt-6">
+        <div className="text-3xl text-white w-full py-20 px-6 opacity-40 mt-6">
           <GoogleMapReact
             bootstrapURLKeys={{
               key: process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY,
@@ -130,8 +130,16 @@ const Contact = () => {
               disableDefaultUI: true,
               zoomControl: true,
               styles: mapStyles,
-            }}
-          />
+            }}>
+              <div
+                className="bg-black"
+                lat={10.99835602}
+                lng={77.01502627}
+              >
+               
+       
+              </div>
+            </GoogleMapReact>
         </div>
       </div>
     </div>

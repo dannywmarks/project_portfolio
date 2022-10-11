@@ -147,7 +147,7 @@ const SideBar2 = () => {
             <div className="h-60 flex justify-around px-4 w-full">
               <SocialIcon
                 style={{ height: 45, width: 45 }}
-                url="https://linkedin.com/in/dannywmarks"
+                url="https://linkedin.com/in/danny-marks/"
                 bgColor="#fff"
               />
               <SocialIcon

@@ -47,30 +47,30 @@ const Hero = () => {
             Contact
           </button>
 
-          <div className="w-full sm:hidden ">
-              <div className="duration-300 ease-in-out text-center ">
+          <div className="w-full sm:hidden mt-10">
+              <div className="duration-300 ease-in-out text-center flex justify-between">
                 <SocialIcon
                 className="mx-4"
-                  style={{ height: 37, width: 37 }}
-                  url="https://linkedin.com/in/dannywmarks"
+                  style={{ height: 75, width: 75 }}
+                  url="https://linkedin.com/in/danny-marks"
                   bgColor="#fff"
                 />
                 <SocialIcon
                   className=""
-                  style={{ height: 37, width: 37 }}
+                  style={{ height: 75, width: 75 }}
                   url="https://github.com/dannywmarks"
                   bgColor="#fff"
                 />
                 <SocialIcon
                   className="mx-4"
-                  style={{ height: 37, width: 37 }}
+                  style={{ height: 75, width: 75 }}
                   url="mailto:dannywmarks@gmail.com"
                   bgColor="#fff"
                 />
               </div>
             </div>
         </div>
-        <div className="order-1 lg:order-2 mr-5 h-full w-full relative max-w-xlg">
+        <div className="order-1 lg:order-2 h-full w-full relative max-w-xlg">
           <div className="flex flex-col content-center h-full">
             <p className="font-pencil text-xl text-red-200 font-bold my-2 ">
               &lt;img src=&quot;/coder.svg&quot; alt=&quot;me&quot;&gt;
