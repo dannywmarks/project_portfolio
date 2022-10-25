@@ -1,8 +1,8 @@
 import React from "react";
 import moment from "moment";
 
-
 const PostDetail = ({ post }) => {
+  console.log("video", post.content.raw);
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
 
@@ -55,12 +55,26 @@ const PostDetail = ({ post }) => {
             src={obj.src}
           />
         );
+      case "iframe":
+        return (
+          <div className="relative overflow-hidden shadow-md mb-6">
+            <iframe
+              className="object-top h-full w-full  sm:h-96 rounded-t-lg"
+              key={index}
+              src={obj.url}
+              width={obj.width}
+              height={obj.height}
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+          </div>
+        );
       default:
         return modifiedText;
     }
   };
   return (
-  
     <div className="bg-gray-900 border-red-300 border-2 shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
       <div className="relative overflow-hidden shadow-md mb-6">
         <img
@@ -87,7 +101,9 @@ const PostDetail = ({ post }) => {
             <span>{moment(post.createdAt).format("MMM DD, YYYY")}</span>
           </div>
         </div>
-        <h1 className="mb-8 text-3xl font-semibold text-red-200">{post.title}</h1>
+        <h1 className="mb-8 text-3xl font-semibold text-red-200">
+          {post.title}
+        </h1>
         {post.content.raw.children.map((typeObj, index) => {
           const children = typeObj.children.map((item, itemIndex) =>
             getContentFragment(itemIndex, item.text, item)
@@ -101,3 +117,5 @@ const PostDetail = ({ post }) => {
 };
 
 export default PostDetail;
+
+
